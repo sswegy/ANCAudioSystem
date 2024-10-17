@@ -4123,7 +4123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 82.55 148.59 0)
 			(effects
 				(font
@@ -4821,7 +4821,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 290.83 100.33 0)
 			(effects
 				(font
@@ -4909,7 +4909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 144.78 254 0)
 			(effects
 				(font
@@ -5266,7 +5266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 82.55 100.33 0)
 			(effects
 				(font
@@ -5484,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -6533,7 +6533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 100.33 254 0)
 			(effects
 				(font
@@ -7105,7 +7105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 194.31 255.27 0)
 			(effects
 				(font
@@ -7330,7 +7330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 290.83 148.59 0)
 			(effects
 				(font
@@ -7551,7 +7551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -7772,7 +7772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 242.57 100.33 0)
 			(effects
 				(font
@@ -7994,7 +7994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -8280,7 +8280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
 			(at 50.8 254 0)
 			(effects
 				(font

@@ -6078,7 +6078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DEVKIT_V1_ESP32-WROOM-32:MODULE_DEVKIT_V1_ESP32-WROOM-32"
+		(property "Footprint" "AudioSystemFootprintLibrary:MODULE_DEVKIT_V1_ESP32-WROOM-32"
 			(at 144.78 60.96 0)
 			(effects
 				(font

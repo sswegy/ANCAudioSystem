@@ -1412,16 +1412,10 @@
 		(uuid "7687873e-38c6-402b-822a-2e7767b9ca26")
 	)
 	(junction
-		(at 283.21 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "967a0963-8989-4ae0-8d62-0e52849f85cb")
-	)
-	(junction
 		(at 283.21 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9cb7bd43-7da7-49a1-902d-f02c812c644d")
+		(uuid "87145718-6d42-4f9d-88ef-4691b438b3b7")
 	)
 	(junction
 		(at 92.71 148.59)
@@ -1537,6 +1531,12 @@
 		(color 0 0 0 0)
 		(uuid "f413f2b2-f01e-43d3-96c3-a6ee10e68198")
 	)
+	(junction
+		(at 283.21 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6f9dabe-025c-4d20-86b9-ae724e587953")
+	)
 	(wire
 		(pts
 			(xy 142.24 97.79) (xy 146.05 97.79)
@@ -1609,6 +1609,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 135.89) (xy 287.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca29e9b-c939-4ae9-9349-6ffe9ecf245c")
+	)
+	(wire
+		(pts
 			(xy 298.45 148.59) (xy 300.99 148.59)
 		)
 		(stroke
@@ -1626,16 +1636,6 @@
 			(type default)
 		)
 		(uuid "0cdcdf4b-30be-446b-b3f0-a02ea38e8ea2")
-	)
-	(wire
-		(pts
-			(xy 271.78 114.3) (xy 271.78 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0da99659-ca9b-4a42-9826-c5eef4a4f208")
 	)
 	(wire
 		(pts
@@ -1686,16 +1686,6 @@
 			(type default)
 		)
 		(uuid "16d80612-850f-4f66-89e0-016dcd7730e3")
-	)
-	(wire
-		(pts
-			(xy 280.67 109.22) (xy 283.21 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17dcf856-8d16-436d-a0f5-79c44e82ab91")
 	)
 	(wire
 		(pts
@@ -1849,6 +1839,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 118.11) (xy 269.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37206ec9-e8b9-421d-86f6-ece4ad58a76a")
+	)
+	(wire
+		(pts
 			(xy 45.72 151.13) (xy 49.53 151.13)
 		)
 		(stroke
@@ -1929,6 +1929,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 135.89) (xy 287.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42082c86-43ac-45d9-be58-52bb5abe2b8a")
+	)
+	(wire
+		(pts
 			(xy 241.3 139.7) (xy 234.95 139.7)
 		)
 		(stroke
@@ -1956,16 +1966,6 @@
 			(type default)
 		)
 		(uuid "4794b12a-31a3-4c63-aa04-7a08029a0c5a")
-	)
-	(wire
-		(pts
-			(xy 280.67 139.7) (xy 283.21 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48053e70-f323-4077-82b6-ca0b697a5765")
 	)
 	(wire
 		(pts
@@ -2259,6 +2259,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 130.81) (xy 269.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673dccdd-6026-4e2d-b979-55b6a9708227")
+	)
+	(wire
+		(pts
 			(xy 26.67 186.69) (xy 26.67 191.77)
 		)
 		(stroke
@@ -2316,6 +2326,16 @@
 			(type default)
 		)
 		(uuid "759ce6f7-a147-486b-9cb2-f98c691200d1")
+	)
+	(wire
+		(pts
+			(xy 283.21 139.7) (xy 283.21 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78dbbd0f-d7ec-43a2-a06a-014fc1a33bec")
 	)
 	(wire
 		(pts
@@ -2409,16 +2429,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 144.78) (xy 271.78 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8363337f-7568-401b-8b6e-b9a0d76ea6f7")
-	)
-	(wire
-		(pts
 			(xy 58.42 200.66) (xy 58.42 196.85)
 		)
 		(stroke
@@ -2456,6 +2466,26 @@
 			(type default)
 		)
 		(uuid "87b1bbd3-56fe-42ec-96a9-f75e8ece4229")
+	)
+	(wire
+		(pts
+			(xy 283.21 109.22) (xy 283.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce3fcb6-409b-4efe-8b85-eb1bb24f1155")
+	)
+	(wire
+		(pts
+			(xy 287.02 127) (xy 283.21 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da8cbd5-eac9-4db5-ac90-34f93b061c16")
 	)
 	(wire
 		(pts
@@ -2659,6 +2689,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 130.81) (xy 269.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd01d1fa-2627-42dc-90f2-c2224ecd931c")
+	)
+	(wire
+		(pts
 			(xy 205.74 151.13) (xy 209.55 151.13)
 		)
 		(stroke
@@ -2839,16 +2879,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 139.7) (xy 273.05 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da587a1b-6e42-416e-b31c-6ddfa9a1f966")
-	)
-	(wire
-		(pts
 			(xy 146.05 110.49) (xy 146.05 105.41)
 		)
 		(stroke
@@ -2916,16 +2946,6 @@
 			(type default)
 		)
 		(uuid "e1b514f4-ccf3-4698-bc77-2472f2a25d5a")
-	)
-	(wire
-		(pts
-			(xy 271.78 109.22) (xy 273.05 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f54ffb-67fb-4ebd-a314-ccd412f82264")
 	)
 	(wire
 		(pts
@@ -3116,6 +3136,16 @@
 			(type default)
 		)
 		(uuid "f81f8a8a-21a0-4db0-af1b-58261e398176")
+	)
+	(wire
+		(pts
+			(xy 278.13 118.11) (xy 269.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcd2749-a2f1-4372-b8ba-ad44c8b841be")
 	)
 	(wire
 		(pts
@@ -3421,7 +3451,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "510"
 			(at 182.88 80.0101 0)
 			(effects
 				(font
@@ -3849,7 +3879,7 @@
 				)
 			)
 		)
-		(property "Value" "2.4k"
+		(property "Value" "2.6k"
 			(at 245.11 114.046 90)
 			(effects
 				(font
@@ -4026,6 +4056,72 @@
 			(project "AudioSystemEQPanel"
 				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "255aafc7-2571-4f4d-bcf8-08a30dfffc0c")
+		(property "Reference" "#PWR015"
+			(at 269.24 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dd2b077-da6c-4e5c-94d9-d50574e79101")
+		)
+		(instances
+			(project "AudioSystemEQPanel"
+				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4283,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Value" "750"
+		(property "Value" "2k"
 			(at 85.09 134.874 90)
 			(effects
 				(font
@@ -4605,144 +4701,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 276.86 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3356d62d-65ef-4600-bd5a-7cdb7b160686")
-		(property "Reference" "R22"
-			(at 274.955 112.3949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 274.955 114.9349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 276.86 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ecf3c8ec-2eea-4809-ab28-56d297e91eec")
-		)
-		(pin "2"
-			(uuid "3c9b4cb2-c30f-4adc-b7b5-1abccd8685b1")
-		)
-		(instances
-			(project "AudioSystemEQPanel"
-				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 276.86 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "371b9904-1152-4f5b-be93-ce01d99c1347")
-		(property "Reference" "R23"
-			(at 274.955 142.8749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 274.955 145.4149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 276.86 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db2f862f-0f04-4b21-b3be-95ac5af4961a")
-		)
-		(pin "2"
-			(uuid "8b13b384-d590-4417-9552-4ef309b9ec0a")
-		)
-		(instances
-			(project "AudioSystemEQPanel"
-				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 53.34 194.31 180)
 		(unit 1)
@@ -4827,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Value" "2.4k"
+		(property "Value" "2.6k"
 			(at 245.11 134.874 90)
 			(effects
 				(font
@@ -5136,7 +5094,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "750"
 			(at 255.27 168.9099 0)
 			(effects
 				(font
@@ -5896,72 +5854,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 271.78 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f2d1709-6d71-40f8-a2ab-066213dfc0f2")
-		(property "Reference" "#PWR015"
-			(at 271.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7ce1c66-833d-41c0-9e53-b533cf70731b")
-		)
-		(instances
-			(project "AudioSystemEQPanel"
-				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 252.73 81.28 0)
 		(mirror y)
@@ -5981,7 +5873,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "750"
 			(at 255.27 80.0101 0)
 			(effects
 				(font
@@ -6537,7 +6429,7 @@
 				)
 			)
 		)
-		(property "Value" "62k"
+		(property "Value" "68k"
 			(at 172.72 114.046 90)
 			(effects
 				(font
@@ -6582,6 +6474,72 @@
 			(project "AudioSystemEQPanel"
 				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a02298cf-f82f-4a17-bcf5-f53fcd2b017d")
+		(property "Reference" "#PWR016"
+			(at 269.24 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1a148ba-241a-437e-b532-b33c61878f23")
+		)
+		(instances
+			(project "AudioSystemEQPanel"
+				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6966,7 +6924,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "510"
 			(at 182.88 168.9099 0)
 			(effects
 				(font
@@ -7232,6 +7190,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Dual")
+		(at 280.67 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9aacadd-cf15-4779-b7aa-0728eb6e1b57")
+		(property "Reference" "RV4"
+			(at 285.75 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 285.75 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 282.575 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 282.575 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual potentiometer"
+			(at 280.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bbd2626e-7018-4a0c-bca7-a76e4ea3075e")
+		)
+		(pin "6"
+			(uuid "02464087-ee40-4140-99ce-b7a187bd030e")
+		)
+		(pin "4"
+			(uuid "8fe16d59-460b-4383-87e9-6b8fce271022")
+		)
+		(pin "3"
+			(uuid "32488d8c-67d5-418a-a6e8-6f9ef2aa1a39")
+		)
+		(pin "2"
+			(uuid "c4c1464c-b359-4cbe-9c78-18f37d7b9bd5")
+		)
+		(pin "1"
+			(uuid "8a55c693-ee48-4f34-95a2-c29908fca7f1")
+		)
+		(instances
+			(project "AudioSystemEQPanel"
+				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 293.37 109.22 90)
 		(unit 1)
@@ -7475,7 +7515,7 @@
 				)
 			)
 		)
-		(property "Value" "750"
+		(property "Value" "2k"
 			(at 85.09 105.41 90)
 			(effects
 				(font
@@ -7917,7 +7957,7 @@
 				)
 			)
 		)
-		(property "Value" "62k"
+		(property "Value" "68k"
 			(at 172.72 134.874 90)
 			(effects
 				(font
@@ -8336,72 +8376,6 @@
 			(project "AudioSystemEQPanel"
 				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 271.78 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1e6ff1c-8e02-42e5-8773-d42055408950")
-		(property "Reference" "#PWR016"
-			(at 271.78 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a2345c2-f5f5-4b69-9c3a-67c7d3c30754")
-		)
-		(instances
-			(project "AudioSystemEQPanel"
-				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)

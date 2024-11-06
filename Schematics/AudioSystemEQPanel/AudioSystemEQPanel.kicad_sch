@@ -2169,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 123.19) (xy 349.25 123.19)
+			(xy 320.04 121.92) (xy 349.25 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2419,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 100.33) (xy 320.04 123.19)
+			(xy 320.04 100.33) (xy 320.04 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2649,7 +2649,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 125.73) (xy 349.25 125.73)
+			(xy 320.04 127) (xy 349.25 127)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 148.59) (xy 320.04 125.73)
+			(xy 320.04 148.59) (xy 320.04 127)
 		)
 		(stroke
 			(width 0)
@@ -2916,16 +2916,6 @@
 			(type default)
 		)
 		(uuid "e08367fa-1067-4edc-827d-b67cccb31b21")
-	)
-	(wire
-		(pts
-			(xy 349.25 128.27) (xy 349.25 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e09cefd5-4791-46b8-86ec-4a2b952b1516")
 	)
 	(wire
 		(pts
@@ -3277,6 +3267,28 @@
 			)
 		)
 	)
+	(global_label "FAOutR"
+		(shape output)
+		(at 349.25 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44524f30-e2e5-48a3-ad53-17ceba8688de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.8876 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R_HIGH"
 		(shape input)
 		(at 205.74 151.13 180)
@@ -3317,6 +3329,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAOutL"
+		(shape output)
+		(at 349.25 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4daa314a-ac55-4e2f-883c-6e145965d50c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.6457 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6840,72 +6874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 349.25 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab96254f-ae67-4c65-bcf8-fb50db36c8db")
-		(property "Reference" "#PWR018"
-			(at 349.25 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 349.25 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad5e184e-edfb-4c78-9c84-6724e1ea4631")
-		)
-		(instances
-			(project "AudioSystemEQPanel"
-				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 180.34 167.64 180)
 		(unit 1)
@@ -6970,79 +6938,6 @@
 			(project "AudioSystemEQPanel"
 				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 354.33 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0bb4b94-2287-4efd-a2ec-274185c8320b")
-		(property "Reference" "J2"
-			(at 361.95 123.8249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack3"
-			(at 361.95 126.3649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 354.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 354.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 354.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "T"
-			(uuid "c0ebd6b1-cba0-4237-a064-7f6ab266829f")
-		)
-		(pin "R"
-			(uuid "3b47cca4-4d52-4437-8316-47a02c73d9a6")
-		)
-		(pin "S"
-			(uuid "354642e1-b592-4a22-a321-7f183e382b4e")
-		)
-		(instances
-			(project ""
-				(path "/d171f5e5-58fa-445c-b596-876d1e770727"
-					(reference "J2")
 					(unit 1)
 				)
 			)

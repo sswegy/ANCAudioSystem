@@ -3,19 +3,18 @@
 
 void dt::cb::on_data_received() 
 {
-  Serial.println("Data packet received");
+  Serial.println(F("Data packet received"));
 }
 
-void dt::cb::print_audio_data(const uint8_t* data, uint32_t len) 
+void dt::cb::read_data_stream(const uint8_t *data, uint32_t length) 
 {
-  Serial.print("Received audio packet, length: ");
-  Serial.println(len);
-  for (uint32_t i = 0; i < len; i++) 
-  {
-    Serial.print(data[i], HEX);
-    Serial.print(" ");
-  }
-  Serial.println();
+    int16_t *values = (int16_t*) data;
+    for (int j = 0; j < length / 2; j += 2)
+    {
+      Serial.print(values[j]);
+      Serial.print(",");
+      Serial.println(values[j+1]);
+    }
 }
 
 void dt::cb::print_avrc_metadata(uint8_t data1, const uint8_t* data2) 

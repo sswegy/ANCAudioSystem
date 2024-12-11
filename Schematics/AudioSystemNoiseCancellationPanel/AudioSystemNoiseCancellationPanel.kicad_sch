@@ -1921,7 +1921,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8d118db1-38a9-4872-bdad-fc736542a22a")
 		(property "Reference" "MK1"
 			(at 132.08 109.22 0)
@@ -2265,7 +2264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MIC5365-1.2YC5-TR:SOT65P210X110-5N"
+		(property "Footprint" "AudioSystemFootprintLibrary:MIC5365-1.2YC5-TR"
 			(at 109.22 88.9 0)
 			(effects
 				(font

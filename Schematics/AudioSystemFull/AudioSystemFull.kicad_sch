@@ -3921,6 +3921,165 @@
 				)
 			)
 		)
+		(symbol "C_Polarized_Small_US_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small_US"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_US_1_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -0.762)
+					(mid 0 -0.3734)
+					(end -1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_US_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -6402,6 +6561,12 @@
 		)
 	)
 	(junction
+		(at 320.04 539.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0074125e-0169-448c-b076-c8fd75b99a00")
+	)
+	(junction
 		(at 728.98 330.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6684,6 +6849,12 @@
 		(uuid "39c35e97-0c20-49ba-87b4-445f21deef83")
 	)
 	(junction
+		(at 327.66 502.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a3631d0-d694-4d0d-af85-5d35aeb67702")
+	)
+	(junction
 		(at 431.8 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6780,6 +6951,12 @@
 		(uuid "5110a496-d527-49a0-93b6-be18e4fab2bf")
 	)
 	(junction
+		(at 302.26 539.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "512166e7-5631-4285-9998-2b4ca18cdc9c")
+	)
+	(junction
 		(at 605.79 297.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6796,6 +6973,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5471e242-a3a8-40f6-b414-0f7f75ae83bb")
+	)
+	(junction
+		(at 327.66 459.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "569cb2fb-f82d-4890-b843-6fff794e8cef")
 	)
 	(junction
 		(at 146.05 100.33)
@@ -6898,12 +7081,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67d26940-22ef-4618-8d53-a96df6ca4731")
-	)
-	(junction
-		(at 87.63 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69985259-1ff3-48c8-b5a9-dae89d403ce9")
 	)
 	(junction
 		(at 632.46 323.85)
@@ -7086,6 +7263,12 @@
 		(uuid "95e8a0d1-447b-4e51-a2e1-8c12fa4b5632")
 	)
 	(junction
+		(at 87.63 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96328de3-3de4-4d9e-9d71-e5f2b15dbf5d")
+	)
+	(junction
 		(at 200.66 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7114,6 +7297,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99ffdad0-087a-45f0-9b32-a46183200879")
+	)
+	(junction
+		(at 63.5 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a48afdd-d269-4612-9a36-d6877ed3ab2a")
 	)
 	(junction
 		(at 556.26 287.02)
@@ -8131,6 +8320,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 462.28) (xy 312.42 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043e1829-3b22-406e-a00b-576f735d7b56")
+	)
+	(wire
+		(pts
 			(xy 708.66 469.9) (xy 726.44 469.9)
 		)
 		(stroke
@@ -8371,6 +8570,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 546.1) (xy 302.26 547.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc2049c-86e3-434c-9110-a0c01eb19738")
+	)
+	(wire
+		(pts
 			(xy 396.24 99.06) (xy 396.24 91.44)
 		)
 		(stroke
@@ -8551,6 +8760,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 539.75) (xy 322.58 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111ad1b7-9380-48ab-982f-b4b31b53d1e5")
+	)
+	(wire
+		(pts
 			(xy 707.39 407.67) (xy 728.98 407.67)
 		)
 		(stroke
@@ -8668,6 +8887,16 @@
 			(type default)
 		)
 		(uuid "14b3e023-97bc-49db-9c92-56be86b4763b")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.25) (xy 63.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14be1503-a0f3-404d-96fa-78d528d897a2")
 	)
 	(wire
 		(pts
@@ -9211,16 +9440,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 459.74) (xy 78.74 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22bb45cc-6793-4805-9a2b-cacfdebdc134")
-	)
-	(wire
-		(pts
 			(xy 654.05 247.65) (xy 654.05 248.92)
 		)
 		(stroke
@@ -9268,6 +9487,16 @@
 			(type default)
 		)
 		(uuid "23ea9562-c21b-4ddb-a706-997416b57eb2")
+	)
+	(wire
+		(pts
+			(xy 299.72 539.75) (xy 302.26 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242a4178-f5e4-42e5-bbbb-8a582317c5ca")
 	)
 	(wire
 		(pts
@@ -9511,13 +9740,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 95.25) (xy 87.63 95.25)
+			(xy 312.42 467.36) (xy 327.66 467.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "299002d0-765e-43ad-8060-41a7c31cbdb5")
+		(uuid "291fdcf6-9415-4b28-8052-e70c0d71954f")
 	)
 	(wire
 		(pts
@@ -9831,6 +10060,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 510.54) (xy 327.66 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f0a168-0aa9-4e4a-b5f0-c74177019753")
+	)
+	(wire
+		(pts
 			(xy 669.29 241.3) (xy 671.83 241.3)
 		)
 		(stroke
@@ -9838,6 +10077,16 @@
 			(type default)
 		)
 		(uuid "320d895e-8767-49d2-899d-2d1563bc9268")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.25) (xy 87.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325af1d4-1634-4d6c-932c-63534c0beb6a")
 	)
 	(wire
 		(pts
@@ -10398,6 +10647,16 @@
 			(type default)
 		)
 		(uuid "3f46acc9-ecb8-48d2-99ba-a18fa7483550")
+	)
+	(wire
+		(pts
+			(xy 327.66 502.92) (xy 340.36 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fda0c3e-14a2-4b8d-8b2b-be6c38d4e702")
 	)
 	(wire
 		(pts
@@ -11391,6 +11650,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 95.25) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfd7079-07a4-420d-ac9d-87a5ef3174c5")
+	)
+	(wire
+		(pts
 			(xy 367.03 494.03) (xy 372.11 494.03)
 		)
 		(stroke
@@ -11488,6 +11757,16 @@
 			(type default)
 		)
 		(uuid "5f829315-1876-4085-a57d-6b84c3bd3af7")
+	)
+	(wire
+		(pts
+			(xy 63.5 104.14) (xy 63.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9cb7ca-6be8-4b32-b17c-7fb6a99689a6")
 	)
 	(wire
 		(pts
@@ -12121,16 +12400,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 502.92) (xy 74.93 502.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6efec5ff-6cc9-41c8-8821-4c74f5764420")
-	)
-	(wire
-		(pts
 			(xy 692.15 453.39) (xy 702.31 453.39)
 		)
 		(stroke
@@ -12691,6 +12960,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 546.1) (xy 320.04 547.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7a0c3d-77ad-4771-b777-c1bb4ca1a1df")
+	)
+	(wire
+		(pts
 			(xy 580.39 294.64) (xy 580.39 297.18)
 		)
 		(stroke
@@ -12778,6 +13057,16 @@
 			(type default)
 		)
 		(uuid "81266f84-2f2e-4671-8a1a-725cb47aab17")
+	)
+	(wire
+		(pts
+			(xy 74.93 500.38) (xy 312.42 500.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8130f86c-73b2-448b-b682-c9d9bf5931af")
 	)
 	(wire
 		(pts
@@ -12978,6 +13267,16 @@
 			(type default)
 		)
 		(uuid "872efe91-b390-4c01-a31f-0502172d6074")
+	)
+	(wire
+		(pts
+			(xy 312.42 505.46) (xy 312.42 510.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874d81c4-5580-4b24-afae-d5b84d88150b")
 	)
 	(wire
 		(pts
@@ -13218,16 +13517,6 @@
 			(type default)
 		)
 		(uuid "8d5fb270-88f6-4797-8910-73d24a9b21af")
-	)
-	(wire
-		(pts
-			(xy 78.74 459.74) (xy 340.36 459.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7fdb78-fa39-4313-be75-af3441f66ee5")
 	)
 	(wire
 		(pts
@@ -13831,6 +14120,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 541.02) (xy 320.04 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4b8858-d036-4f70-95a9-cf996f4cc228")
+	)
+	(wire
+		(pts
 			(xy 450.85 328.93) (xy 450.85 330.2)
 		)
 		(stroke
@@ -14138,6 +14437,16 @@
 			(type default)
 		)
 		(uuid "a5a162c4-4465-4aa2-aae5-7720227dc61b")
+	)
+	(wire
+		(pts
+			(xy 78.74 457.2) (xy 78.74 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a608f9bb-dfb8-47af-9500-010f3279a53a")
 	)
 	(wire
 		(pts
@@ -14581,6 +14890,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 467.36) (xy 327.66 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36d34ad-c54e-42c0-a6ac-c83fc67f7ed7")
+	)
+	(wire
+		(pts
 			(xy 568.96 414.02) (xy 571.5 414.02)
 		)
 		(stroke
@@ -14758,6 +15077,16 @@
 			(type default)
 		)
 		(uuid "b8e7a17f-df5b-40e3-87f0-c89e006f01c2")
+	)
+	(wire
+		(pts
+			(xy 327.66 459.74) (xy 340.36 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ef298f-5678-4c30-97a7-a859fb419013")
 	)
 	(wire
 		(pts
@@ -15618,6 +15947,16 @@
 			(type default)
 		)
 		(uuid "d0cf450d-75b3-436b-b5ef-913563020829")
+	)
+	(wire
+		(pts
+			(xy 78.74 457.2) (xy 312.42 457.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10d85e7-1d5b-4396-8aef-b94adabda613")
 	)
 	(wire
 		(pts
@@ -16531,6 +16870,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 539.75) (xy 318.77 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea661416-bdbb-4499-a695-a35cf06891fb")
+	)
+	(wire
+		(pts
 			(xy 530.86 242.57) (xy 530.86 246.38)
 		)
 		(stroke
@@ -16771,6 +17120,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 541.02) (xy 302.26 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5e36b1-6a02-40e7-9f04-41145729b731")
+	)
+	(wire
+		(pts
 			(xy 481.33 496.57) (xy 481.33 495.3)
 		)
 		(stroke
@@ -16778,6 +17137,16 @@
 			(type default)
 		)
 		(uuid "efba79e3-890e-46f2-8029-a5535b615629")
+	)
+	(wire
+		(pts
+			(xy 302.26 539.75) (xy 303.53 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcb70ec-5cd0-4997-b605-caf4f49d20c6")
 	)
 	(wire
 		(pts
@@ -16801,7 +17170,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 383.54) (xy 74.93 502.92)
+			(xy 74.93 383.54) (xy 74.93 500.38)
 		)
 		(stroke
 			(width 0)
@@ -17178,6 +17547,16 @@
 			(type default)
 		)
 		(uuid "fb82faa4-917a-44ab-a597-eb64040431d7")
+	)
+	(wire
+		(pts
+			(xy 312.42 510.54) (xy 327.66 510.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb6d326-36bd-4e5d-aeff-9f640ca8d3fc")
 	)
 	(wire
 		(pts
@@ -18590,6 +18969,28 @@
 			)
 		)
 	)
+	(global_label "+5VAnalog"
+		(shape input)
+		(at 299.72 539.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e89ecdc-d7cb-4c7d-9024-f91cbba01d43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 286.5145 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FANCMidL"
 		(shape output)
 		(at 613.41 243.84 0)
@@ -19065,6 +19466,28 @@
 		(uuid "7dcc62f3-71fd-42ca-855e-8be2f2484798")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 762.5055 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-5VAnalog"
+		(shape input)
+		(at 322.58 539.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81704476-c04c-4a81-aeb3-f805b6a9e22e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.7855 539.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20796,7 +21219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 97.79 101.6 0)
 			(effects
 				(font
@@ -20815,6 +21238,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 97.79 101.6 0)
 			(effects
 				(font
@@ -20866,7 +21298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 459.74 186.69 0)
 			(effects
 				(font
@@ -20885,6 +21317,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 459.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 459.74 186.69 0)
 			(effects
 				(font
@@ -21027,6 +21468,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE07470RL"
+			(at 363.22 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3091973e-ebb9-4d78-afee-1b92c7ec428a")
 		)
@@ -21094,6 +21544,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
+			(at 661.67 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df79956a-b081-4484-9040-dea5a4f1b621")
 		)
@@ -21117,10 +21576,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02c0c8d4-9487-4119-8391-63a897f1c0b3")
 		(property "Reference" "U14"
-			(at 610.87 452.12 0)
+			(at 615.95 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21128,7 +21586,7 @@
 			)
 		)
 		(property "Value" "OPA2134"
-			(at 610.87 454.66 0)
+			(at 615.95 457.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21154,6 +21612,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 610.87 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 610.87 462.28 0)
 			(effects
 				(font
@@ -21460,6 +21927,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE07470RL"
+			(at 308.61 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8ad2580-2ae2-4515-84c3-5b7ebfef4aa1")
 		)
@@ -21520,6 +21996,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 796.29 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 796.29 454.66 0)
 			(effects
 				(font
@@ -21598,6 +22083,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCU1206BTE100K"
+			(at 166.37 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cea5e68e-5070-4ece-b7d8-15638d48b9a4")
 		)
@@ -21640,7 +22134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 579.12 464.82 0)
 			(effects
 				(font
@@ -21659,6 +22153,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 579.12 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 579.12 464.82 0)
 			(effects
 				(font
@@ -21708,7 +22211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 491.49 405.13 0)
 			(effects
 				(font
@@ -21727,6 +22230,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 491.49 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 491.49 405.13 0)
 			(effects
 				(font
@@ -21778,7 +22290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 467.36 351.79 0)
 			(effects
 				(font
@@ -21797,6 +22309,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 467.36 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 467.36 351.79 0)
 			(effects
 				(font
@@ -21848,7 +22369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 650.24 327.66 0)
 			(effects
 				(font
@@ -21867,6 +22388,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 650.24 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 650.24 327.66 0)
 			(effects
 				(font
@@ -21935,6 +22465,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 641.35 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 641.35 321.31 0)
 			(effects
 				(font
@@ -22029,6 +22568,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 427.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e8612c5-112b-49e7-8771-29dd632a1815")
 		)
@@ -22115,6 +22663,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 402.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87f3f9b0-a26d-4ff5-9b27-856ff84ee47a")
 		)
@@ -22157,7 +22714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
 			(at 218.44 405.13 0)
 			(effects
 				(font
@@ -22176,6 +22733,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 218.44 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
 			(at 218.44 405.13 0)
 			(effects
 				(font
@@ -22318,6 +22884,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 384.81 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5c936ae-b9fe-49bd-bdc0-dde6d04dc541")
 		)
@@ -22386,6 +22961,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 549.91 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "41aeb975-2340-4545-a447-a04a8e54e9a1")
 		)
@@ -22446,7 +23030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 471.17 289.56 0)
 			(effects
 				(font
@@ -22465,6 +23049,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 471.17 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 471.17 289.56 0)
 			(effects
 				(font
@@ -22598,6 +23191,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 421.64 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
 			(at 421.64 273.05 0)
 			(effects
 				(font
@@ -22805,6 +23407,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 373.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0e71a35-f630-4a14-9c5f-256c1fe0b759")
 		)
@@ -22821,6 +23432,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_Polarized_Small_US_1")
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 279.4 401.32 180)
 		(unit 1)
@@ -22848,7 +23460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
 			(at 279.4 401.32 0)
 			(effects
 				(font
@@ -22867,6 +23479,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 279.4 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
 			(at 279.4 401.32 0)
 			(effects
 				(font
@@ -23140,6 +23761,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 541.02 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "769687ac-a308-4a89-9c76-01fbb5639609")
 		)
@@ -23200,6 +23830,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 562.61 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 562.61 520.7 0)
 			(effects
 				(font
@@ -23400,7 +24039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
 			(at 175.26 191.77 0)
 			(effects
 				(font
@@ -23419,6 +24058,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 175.26 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
 			(at 175.26 191.77 0)
 			(effects
 				(font
@@ -23470,7 +24118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 542.29 325.12 0)
 			(effects
 				(font
@@ -23489,6 +24137,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 542.29 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 542.29 325.12 0)
 			(effects
 				(font
@@ -23540,7 +24197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.63 101.6 0)
 			(effects
 				(font
@@ -23559,6 +24216,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 87.63 101.6 0)
 			(effects
 				(font
@@ -23700,6 +24366,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 434.34 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0faaa8c-9df8-4cee-bc35-c689eb8c2f52")
 		)
@@ -23809,7 +24484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 553.72 527.05 0)
 			(effects
 				(font
@@ -23828,6 +24503,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 553.72 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 553.72 527.05 0)
 			(effects
 				(font
@@ -23961,6 +24645,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 466.09 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE0716KL"
 			(at 466.09 457.2 0)
 			(effects
 				(font
@@ -24105,6 +24798,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 656.59 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0fdd427c-30c8-4e03-a084-a9e364d099f1")
 		)
@@ -24184,6 +24886,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0712KL"
+			(at 574.04 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e327f565-2ee1-4856-ad83-f557948924f0")
 		)
@@ -24251,6 +24962,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 553.72 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13fbc156-a1f6-4c4c-bb7d-9f413c670327")
 		)
@@ -24310,6 +25030,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 439.42 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
 			(at 439.42 290.83 0)
 			(effects
 				(font
@@ -24452,6 +25181,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 452.12 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00717d03-3644-4e84-b142-58c6a676e3c2")
 		)
@@ -24538,6 +25276,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 388.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "a024c591-bca7-43bf-9d51-03e2c48448b2")
 		)
@@ -24599,7 +25346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 662.94 500.38 0)
 			(effects
 				(font
@@ -24618,6 +25365,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 662.94 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 662.94 500.38 0)
 			(effects
 				(font
@@ -24686,6 +25442,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 388.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 388.62 91.44 0)
 			(effects
 				(font
@@ -24926,76 +25691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 63.5 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c315e5b-84af-4f6f-a0bb-06e637947708")
-		(property "Reference" "C28"
-			(at 66.04 182.8862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000u"
-			(at 66.04 185.4262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 63.5 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe05e428-45ce-4ce2-b884-8dae39128ae9")
-		)
-		(pin "1"
-			(uuid "ad57c305-a443-44ce-815e-1a448de2bb18")
-		)
-		(instances
-			(project "AudioSystemFull"
-				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 444.5 425.45 0)
 		(unit 1)
@@ -25088,7 +25783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 684.53 287.02 0)
 			(effects
 				(font
@@ -25107,6 +25802,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 684.53 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 684.53 287.02 0)
 			(effects
 				(font
@@ -25157,7 +25861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -25176,6 +25880,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -25358,7 +26071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 697.23 459.74 0)
 			(effects
 				(font
@@ -25377,6 +26090,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 697.23 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 697.23 459.74 0)
 			(effects
 				(font
@@ -25428,7 +26150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 759.46 506.73 0)
 			(effects
 				(font
@@ -25447,6 +26169,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 759.46 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 759.46 506.73 0)
 			(effects
 				(font
@@ -25517,6 +26248,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 166.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCU1206BTE10K0"
 			(at 166.37 190.5 0)
 			(effects
 				(font
@@ -25699,7 +26439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 257.81 205.74 0)
 			(effects
 				(font
@@ -25718,6 +26458,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 257.81 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCASU32MAB7106KPNA01"
 			(at 257.81 205.74 0)
 			(effects
 				(font
@@ -25861,6 +26610,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 760.73 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6f6c816-cf30-4098-8885-e6171319c921")
 		)
@@ -25903,7 +26661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 674.37 241.3 0)
 			(effects
 				(font
@@ -25922,6 +26680,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 674.37 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 674.37 241.3 0)
 			(effects
 				(font
@@ -25998,6 +26765,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 561.34 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05c2779c-7d73-475f-aca6-ae28988ba87b")
 		)
@@ -26059,7 +26835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 541.02 354.33 0)
 			(effects
 				(font
@@ -26078,6 +26854,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 541.02 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 541.02 354.33 0)
 			(effects
 				(font
@@ -26220,6 +27005,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 563.88 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05c2779c-7d73-475f-aca6-ae28988ba87c")
 		)
@@ -26297,6 +27091,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 373.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
 			(at 373.38 149.86 0)
 			(effects
 				(font
@@ -26438,6 +27241,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 716.28 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "60ba8dee-d9c4-4652-aef4-44dd17c9fbda")
 		)
@@ -26565,7 +27377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 571.5 527.05 0)
 			(effects
 				(font
@@ -26584,6 +27396,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 571.5 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 571.5 527.05 0)
 			(effects
 				(font
@@ -26651,6 +27472,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 453.39 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE0716KL"
 			(at 453.39 284.48 0)
 			(effects
 				(font
@@ -26727,6 +27557,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 782.32 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "016c6710-6c5a-4f7f-a373-307cf85534e4")
 		)
@@ -26787,6 +27626,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 361.95 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 361.95 537.21 0)
 			(effects
 				(font
@@ -26872,6 +27720,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 561.34 420.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
 			(at 561.34 420.37 0)
 			(effects
 				(font
@@ -27145,6 +28002,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE077K5L"
+			(at 689.61 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4eca5f9-cb20-4073-b300-9a2ed32daced")
 		)
@@ -27271,6 +28137,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 782.32 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 782.32 241.3 0)
 			(effects
 				(font
@@ -27438,6 +28313,72 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 302.26 547.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31e67990-8dc3-4a20-9e04-da8cf4dc2728")
+		(property "Reference" "#PWR0143"
+			(at 302.26 553.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 302.26 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 302.26 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76fcf833-e4dc-4a1b-8030-592e6185ac6a")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -27693,6 +28634,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 485.14 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14af1b43-3d43-4b06-b5b5-cefae6fdb023")
 		)
@@ -27779,6 +28729,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 427.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20028dd2-2707-4046-8570-dd978d5cdef3")
 		)
@@ -27839,6 +28798,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 795.02 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 795.02 406.4 0)
 			(effects
 				(font
@@ -27915,6 +28883,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 773.43 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a97450a4-c189-421c-8b7e-f02a411d528a")
 		)
@@ -27977,6 +28954,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 543.56 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
 			(at 543.56 411.48 0)
 			(effects
 				(font
@@ -28106,7 +29092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 650.24 349.25 0)
 			(effects
 				(font
@@ -28125,6 +29111,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 650.24 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 650.24 349.25 0)
 			(effects
 				(font
@@ -28192,6 +29187,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 377.19 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 377.19 308.61 0)
 			(effects
 				(font
@@ -28468,6 +29472,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 434.34 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a3c2f098-fd52-4d56-b9a5-c7f7ef9ff139")
 		)
@@ -28523,7 +29536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 370.84 543.56 0)
 			(effects
 				(font
@@ -28542,6 +29555,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 370.84 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 370.84 543.56 0)
 			(effects
 				(font
@@ -28610,6 +29632,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 472.44 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 472.44 492.76 0)
 			(effects
 				(font
@@ -28828,6 +29859,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 783.59 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 783.59 281.94 0)
 			(effects
 				(font
@@ -29076,7 +30116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 674.37 287.02 0)
 			(effects
 				(font
@@ -29095,6 +30135,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 674.37 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 674.37 287.02 0)
 			(effects
 				(font
@@ -29212,7 +30261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 632.46 349.25 0)
 			(effects
 				(font
@@ -29239,6 +30288,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
+			(at 632.46 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cc8f9ce-71e3-4a72-a4ba-64700c97f689")
 		)
@@ -29249,6 +30307,85 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 320.04 543.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43695383-3dd6-45e0-aa8f-8f476e47ff18")
+		(property "Reference" "C110"
+			(at 322.58 542.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 322.58 544.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 320.04 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 320.04 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
+			(at 320.04 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6f87b7a-38ea-40ac-935f-5917633404aa")
+		)
+		(pin "1"
+			(uuid "b07bd0fe-786e-4481-87b8-07de40f3af30")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -29298,6 +30435,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 543.56 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
 			(at 543.56 402.59 0)
 			(effects
 				(font
@@ -29373,6 +30519,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0756KL"
+			(at 600.71 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1c58129-056d-449d-bbb3-1f6dc9df4760")
 		)
@@ -29440,6 +30595,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 384.81 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "caec86fa-8875-425c-8350-2ca2b44d3425")
 		)
@@ -29499,6 +30663,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 384.81 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 384.81 457.2 0)
 			(effects
 				(font
@@ -29616,7 +30789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 267.97 373.38 0)
 			(effects
 				(font
@@ -29635,6 +30808,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 267.97 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 267.97 373.38 0)
 			(effects
 				(font
@@ -29685,7 +30867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 586.74 459.74 0)
 			(effects
 				(font
@@ -29712,6 +30894,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
+			(at 586.74 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c88a82df-3d7d-4ef4-92f5-37c83a48e44b")
 		)
@@ -29722,6 +30913,72 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 63.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "451e19b2-f01d-455b-b9df-2e6a609a13c1")
+		(property "Reference" "#PWR0145"
+			(at 63.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46cccf12-2868-43d2-9e1f-671cf0cc248b")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -29846,6 +31103,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 716.28 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "60ba8dee-d9c4-4652-aef4-44dd17c9fbdb")
 		)
@@ -29955,22 +31221,22 @@
 		(dnp no)
 		(uuid "46e982f9-b87f-44e6-9bb5-a60398365d39")
 		(property "Reference" "C2"
-			(at 66.04 378.46 90)
+			(at 66.04 387.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 66.04 381 90)
+		(property "Value" "330n"
+			(at 66.04 389.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 66.04 383.54 0)
 			(effects
 				(font
@@ -29989,6 +31255,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GRM31C5C1E334JE01L"
 			(at 66.04 383.54 0)
 			(effects
 				(font
@@ -30065,6 +31340,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 402.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f35ed389-a7c5-401a-8f57-3e1284bc516b")
 		)
@@ -30124,6 +31408,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 654.05 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 654.05 297.18 0)
 			(effects
 				(font
@@ -30200,6 +31493,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 760.73 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21e9a909-bf92-4d45-873f-0a36532bb704")
 		)
@@ -30267,6 +31569,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE077K5L"
+			(at 692.15 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54cbdc30-6511-4a83-b288-2ecaa9439a68")
 		)
@@ -30309,7 +31620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 697.23 414.02 0)
 			(effects
 				(font
@@ -30328,6 +31639,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 697.23 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 697.23 414.02 0)
 			(effects
 				(font
@@ -30378,7 +31698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 106.68 184.15 0)
 			(effects
 				(font
@@ -30397,6 +31717,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GCJ31CR71H225KA12L"
 			(at 106.68 184.15 0)
 			(effects
 				(font
@@ -30447,7 +31776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 179.07 106.68 0)
 			(effects
 				(font
@@ -30466,6 +31795,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNNNE"
 			(at 179.07 106.68 0)
 			(effects
 				(font
@@ -30583,7 +31921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 403.86 186.69 0)
 			(effects
 				(font
@@ -30602,6 +31940,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 403.86 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 403.86 186.69 0)
 			(effects
 				(font
@@ -30652,7 +31999,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 566.42 292.1 0)
 			(effects
 				(font
@@ -30671,6 +32018,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 566.42 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 566.42 292.1 0)
 			(effects
 				(font
@@ -30943,6 +32299,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "LMR51420XFDDCR"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "758877ea-6106-4b86-9f5c-af5804cb383d")
 		)
@@ -31023,6 +32388,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 548.64 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9a043a9-e100-4c56-a7c8-d16d529d6704")
 		)
@@ -31084,7 +32458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 450.85 326.39 0)
 			(effects
 				(font
@@ -31103,6 +32477,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 450.85 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 450.85 326.39 0)
 			(effects
 				(font
@@ -31154,7 +32537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 97.79 139.7 0)
 			(effects
 				(font
@@ -31173,6 +32556,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 97.79 139.7 0)
 			(effects
 				(font
@@ -31248,6 +32640,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0756KL"
+			(at 588.01 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0cb0b60-d8cf-4e23-b212-eacb0bb7d7e8")
 		)
@@ -31307,6 +32708,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 452.12 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
 			(at 452.12 417.83 0)
 			(effects
 				(font
@@ -31449,6 +32859,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 363.22 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "686ff9cc-7623-403d-a0d2-0db1f75b1aad")
 		)
@@ -31534,6 +32953,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRD072KL"
+			(at 605.79 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6bd0145e-a3f2-40a0-ae15-20b19282d5c1")
 		)
@@ -31577,7 +33005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 632.46 327.66 0)
 			(effects
 				(font
@@ -31596,6 +33024,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 632.46 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 632.46 327.66 0)
 			(effects
 				(font
@@ -31671,6 +33108,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
+			(at 561.34 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97ffa90c-9209-4ac2-a2c3-dbc1b001822b")
 		)
@@ -31731,6 +33177,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 402.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 402.59 91.44 0)
 			(effects
 				(font
@@ -31873,6 +33328,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 750.57 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "e5773201-043f-4bff-ab9d-7856c4f6e8b4")
 		)
@@ -31951,6 +33415,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 450.85 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 450.85 180.34 0)
 			(effects
 				(font
@@ -32045,6 +33518,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 363.22 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5aa5d3f1-da6f-4d44-b122-af9581a20ad7")
 		)
@@ -32125,6 +33607,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 162.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "HRG3216P-2701-D-T1"
 			(at 162.56 113.03 0)
 			(effects
 				(font
@@ -32232,7 +33723,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "330n"
 			(at 66.0463 372.11 90)
 			(effects
 				(font
@@ -32240,7 +33731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 66.04 375.92 0)
 			(effects
 				(font
@@ -32259,6 +33750,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GRM31C5C1E334JE01L"
 			(at 66.04 375.92 0)
 			(effects
 				(font
@@ -32376,7 +33876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 321.0052 382.27 0)
 			(effects
 				(font
@@ -32395,6 +33895,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 320.04 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "AC1206JRNPO9BN222"
 			(at 320.04 378.46 0)
 			(effects
 				(font
@@ -32463,6 +33972,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 439.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 439.42 238.76 0)
 			(effects
 				(font
@@ -32548,6 +34066,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 666.75 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 666.75 469.9 0)
 			(effects
 				(font
@@ -32694,6 +34221,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 421.64 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a3c2f098-fd52-4d56-b9a5-c7f7ef9ff13a")
 		)
@@ -32766,6 +34302,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 654.05 515.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 654.05 515.62 0)
 			(effects
 				(font
@@ -32860,6 +34405,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 783.59 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "4ed30f39-9204-4dfd-877e-3d3881a89400")
 		)
@@ -32946,6 +34500,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 427.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "568d44d7-0c3e-4b43-bd97-8256a0b89d8c")
 		)
@@ -33006,6 +34569,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 654.05 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 654.05 494.03 0)
 			(effects
 				(font
@@ -33075,7 +34647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 741.68 506.73 0)
 			(effects
 				(font
@@ -33094,6 +34666,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 741.68 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 741.68 506.73 0)
 			(effects
 				(font
@@ -33161,6 +34742,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 618.49 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 618.49 473.71 0)
 			(effects
 				(font
@@ -33394,6 +34984,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "LP3856ES-5.0"
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2abcca75-f5d4-4f5c-8a05-925ff1ef2bd2")
 		)
@@ -33462,6 +35061,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 431.8 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 431.8 248.92 0)
 			(effects
 				(font
@@ -33644,7 +35252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 566.42 246.38 0)
 			(effects
 				(font
@@ -33663,6 +35271,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 566.42 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 566.42 246.38 0)
 			(effects
 				(font
@@ -33781,7 +35398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 574.04 241.3 0)
 			(effects
 				(font
@@ -33800,6 +35417,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 574.04 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 574.04 241.3 0)
 			(effects
 				(font
@@ -33875,6 +35501,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0710KL"
+			(at 105.41 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de80ef7c-9a92-4569-bafb-dfb9f7abc4f8")
 		)
@@ -33917,7 +35552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -33936,6 +35571,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GCJ31CR71H225KA12L"
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -34003,6 +35647,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 384.81 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 384.81 462.28 0)
 			(effects
 				(font
@@ -34079,6 +35732,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 551.18 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05c2779c-7d73-475f-aca6-ae28988ba87d")
 		)
@@ -34140,7 +35802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 463.55 499.11 0)
 			(effects
 				(font
@@ -34159,6 +35821,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 463.55 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 463.55 499.11 0)
 			(effects
 				(font
@@ -34303,6 +35974,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "HRG3216P-2400-D-T1"
+			(at 162.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd200733-90a9-469a-a0e7-d1f24795117f")
 		)
@@ -34436,6 +36116,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE077K5L"
+			(at 704.85 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4a17d0a-4314-49e2-afe2-503f1586e11f")
 		)
@@ -34503,6 +36192,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0712KL"
+			(at 593.09 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "225bf014-5a43-4ce4-b805-2cab467b846c")
 		)
@@ -34545,7 +36243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 179.07 144.78 0)
 			(effects
 				(font
@@ -34564,6 +36262,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCASU32MAB7106KPNA01"
 			(at 179.07 144.78 0)
 			(effects
 				(font
@@ -34639,6 +36346,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0712KL"
+			(at 593.09 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83ac88f8-4f22-411d-9e9a-24f41b314453")
 		)
@@ -34699,6 +36415,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 661.67 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 661.67 241.3 0)
 			(effects
 				(font
@@ -34834,7 +36559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 267.97 394.97 0)
 			(effects
 				(font
@@ -34853,6 +36578,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 267.97 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GCJ31CR71H225KA12L"
 			(at 267.97 394.97 0)
 			(effects
 				(font
@@ -34928,6 +36662,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE0716KL"
+			(at 453.39 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "401fd6b1-0d19-4b8a-9907-1fe4c365a9c3")
 		)
@@ -34971,7 +36714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 97.79 184.15 0)
 			(effects
 				(font
@@ -34990,6 +36733,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 97.79 184.15 0)
 			(effects
 				(font
@@ -35066,6 +36818,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RN732BTTD3200F50"
+			(at 344.17 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf24801f-12fe-4c0f-bb40-1191304f6f9e")
 		)
@@ -35109,7 +36870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 353.06 543.56 0)
 			(effects
 				(font
@@ -35128,6 +36889,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 353.06 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 353.06 543.56 0)
 			(effects
 				(font
@@ -35338,6 +37108,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "HRG3216P-1800-D-T1"
+			(at 166.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8642389c-f822-43fc-9f0e-4692994f3237")
 		)
@@ -35398,6 +37177,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 703.58 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 703.58 289.56 0)
 			(effects
 				(font
@@ -35494,6 +37282,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 643.89 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0fdd427c-30c8-4e03-a084-a9e364d099f2")
 		)
@@ -35573,6 +37370,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 377.19 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90d69306-8aa8-46a2-8d80-ec76145f9f9d")
 		)
@@ -35616,7 +37422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 265.43 388.62 0)
 			(effects
 				(font
@@ -35635,6 +37441,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 265.43 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GCJ31CR71H225KA12L"
 			(at 265.43 388.62 0)
 			(effects
 				(font
@@ -35702,6 +37517,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 703.58 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 703.58 243.84 0)
 			(effects
 				(font
@@ -35795,6 +37619,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 656.59 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3d6532d-91d1-48b9-86a2-ec8fa28ed1d1")
 		)
@@ -35863,6 +37696,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 548.64 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05c2779c-7d73-475f-aca6-ae28988ba87e")
 		)
@@ -35922,7 +37764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 491.49 450.85 0)
 			(effects
 				(font
@@ -35941,6 +37783,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 491.49 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 491.49 450.85 0)
 			(effects
 				(font
@@ -35992,7 +37843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 468.63 326.39 0)
 			(effects
 				(font
@@ -36011,6 +37862,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 468.63 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 468.63 326.39 0)
 			(effects
 				(font
@@ -36086,6 +37946,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 444.5 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bef3746-43a0-43fa-b459-00282308e079")
 		)
@@ -36146,6 +38015,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 796.29 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 796.29 462.28 0)
 			(effects
 				(font
@@ -36231,6 +38109,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 497.84 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 497.84 459.74 0)
 			(effects
 				(font
@@ -36325,6 +38212,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 452.12 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00717d03-3644-4e84-b142-58c6a676e3c4")
 		)
@@ -36353,6 +38249,85 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 302.26 543.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "777edb0c-3077-4cc2-bf44-2942b4e87e9a")
+		(property "Reference" "C109"
+			(at 304.8 542.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 304.8 544.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 302.26 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 302.26 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
+			(at 302.26 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a60b59c-069b-4f82-88c6-5076f3fcf0ba")
+		)
+		(pin "1"
+			(uuid "ad2a32e0-c9b4-44c9-bda5-0176ba114f0c")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -36403,6 +38378,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 427.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 427.99 147.32 0)
 			(effects
 				(font
@@ -36538,7 +38522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 728.98 334.01 0)
 			(effects
 				(font
@@ -36557,6 +38541,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 728.98 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 728.98 334.01 0)
 			(effects
 				(font
@@ -36627,6 +38620,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCU1206BTE100K"
 			(at 162.56 102.87 0)
 			(effects
 				(font
@@ -36835,6 +38837,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 762 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fdbaba5-29b2-4e89-b7fc-aa5ea73e5c31")
 		)
@@ -36943,7 +38954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 579.12 419.1 0)
 			(effects
 				(font
@@ -36962,6 +38973,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 579.12 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 579.12 419.1 0)
 			(effects
 				(font
@@ -37038,6 +39058,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE07470RL"
+			(at 363.22 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52464e81-d892-464a-9c95-6350ead3f357")
 		)
@@ -37097,6 +39126,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 463.55 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE0716KL"
 			(at 463.55 238.76 0)
 			(effects
 				(font
@@ -37167,6 +39205,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 530.86 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
 			(at 530.86 238.76 0)
 			(effects
 				(font
@@ -37257,6 +39304,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 373.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "a2bf1068-89d3-40dc-9e8b-9fcc519b1bd7")
 		)
@@ -37312,7 +39368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 224.79 405.13 0)
 			(effects
 				(font
@@ -37339,6 +39395,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
+			(at 224.79 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2611923a-729b-4f98-b0e4-a2cfd3190c19")
 		)
@@ -37350,6 +39415,100 @@
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "C6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2134")
+		(at 320.04 502.92 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80530006-aae9-4e09-a29d-58b297f5dd90")
+		(property "Reference" "U28"
+			(at 320.04 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2134"
+			(at 320.04 495.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
+			(at 320.04 502.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 320.04 502.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 320.04 502.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 320.04 502.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0efb70a2-658a-47ab-98ca-83ba07665ca4")
+		)
+		(pin "6"
+			(uuid "bba116ca-5f27-47e3-92f0-b38b1637349c")
+		)
+		(pin "8"
+			(uuid "242491c1-b49d-4ae2-a068-41638a2561c9")
+		)
+		(pin "5"
+			(uuid "70ea7958-3350-4057-92f9-edcab870b75e")
+		)
+		(pin "2"
+			(uuid "6f50cf08-25de-4b22-80a6-810a10940276")
+		)
+		(pin "4"
+			(uuid "c6ab6a55-eafd-48ca-b064-78106e89791d")
+		)
+		(pin "7"
+			(uuid "c2fb97e5-f7d9-4100-8125-1e9a9dd2cd4b")
+		)
+		(pin "1"
+			(uuid "9ced9dfb-146f-458e-9d5d-0117734ce420")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "U28")
+					(unit 2)
 				)
 			)
 		)
@@ -37472,6 +39631,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRD072KL"
+			(at 605.79 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "150f6fdc-6c8f-487e-9323-4593b3d1469a")
 		)
@@ -37531,6 +39699,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 388.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 388.62 58.42 0)
 			(effects
 				(font
@@ -37624,6 +39801,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE0716KL"
+			(at 466.09 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfb6c3fe-0870-43f2-b23b-a7f7dad1b219")
 		)
@@ -37691,6 +39877,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRD072KL"
+			(at 618.49 420.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2620a56d-5b18-4757-beed-b409c563bbd9")
 		)
@@ -37734,7 +39929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.63 184.15 0)
 			(effects
 				(font
@@ -37753,6 +39948,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 87.63 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 87.63 184.15 0)
 			(effects
 				(font
@@ -37820,6 +40024,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 561.34 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0712KL"
 			(at 561.34 241.3 0)
 			(effects
 				(font
@@ -38030,6 +40243,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 373.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "a2bf1068-89d3-40dc-9e8b-9fcc519b1bd8")
 		)
@@ -38217,7 +40439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 662.94 521.97 0)
 			(effects
 				(font
@@ -38236,6 +40458,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 662.94 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 662.94 521.97 0)
 			(effects
 				(font
@@ -38286,7 +40517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 222.25 119.38 0)
 			(effects
 				(font
@@ -38305,6 +40536,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "C1206C105K3RAC7800"
 			(at 222.25 119.38 0)
 			(effects
 				(font
@@ -38422,7 +40662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 645.16 521.97 0)
 			(effects
 				(font
@@ -38441,6 +40681,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 645.16 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 645.16 521.97 0)
 			(effects
 				(font
@@ -38492,7 +40741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 462.28 524.51 0)
 			(effects
 				(font
@@ -38511,6 +40760,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 462.28 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 462.28 524.51 0)
 			(effects
 				(font
@@ -38652,6 +40910,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
+			(at 439.42 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d405691-bfe0-4972-96e6-edd854e270b1")
 		)
@@ -38711,6 +40978,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 377.19 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 377.19 265.43 0)
 			(effects
 				(font
@@ -38789,6 +41065,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 656.59 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0fdd427c-30c8-4e03-a084-a9e364d099f3")
 		)
@@ -38843,7 +41128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 195.58 119.38 0)
 			(effects
 				(font
@@ -38862,6 +41147,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 195.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "C1206C105K3RAC7800"
 			(at 195.58 119.38 0)
 			(effects
 				(font
@@ -38952,6 +41246,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 63.5 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f0785a4-2500-4e6f-ae5a-422672c37a6a")
+		(property "Reference" "C28"
+			(at 66.294 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000u"
+			(at 66.294 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+			(at 63.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 63.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UKT1V102MHD1TO"
+			(at 63.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03f86edc-d27f-44db-860c-5c2922caff15")
+		)
+		(pin "1"
+			(uuid "0fd9cc19-0073-4b00-a6fe-286a660ba65a")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 558.8 354.33 0)
 		(unit 1)
@@ -38979,7 +41351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 558.8 354.33 0)
 			(effects
 				(font
@@ -38998,6 +41370,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 558.8 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 558.8 354.33 0)
 			(effects
 				(font
@@ -39047,7 +41428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 660.4 68.58 0)
 			(effects
 				(font
@@ -39066,6 +41447,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 660.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" " GRM31C5C1H224JE02L"
 			(at 660.4 68.58 0)
 			(effects
 				(font
@@ -39117,7 +41507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 554.99 497.84 0)
 			(effects
 				(font
@@ -39136,6 +41526,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 554.99 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 554.99 497.84 0)
 			(effects
 				(font
@@ -39254,7 +41653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 222.25 157.48 0)
 			(effects
 				(font
@@ -39273,6 +41672,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "C1206C105K3RAC7800"
 			(at 222.25 157.48 0)
 			(effects
 				(font
@@ -39350,6 +41758,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCU1206BTE10K0"
+			(at 248.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b23bf01e-9d9a-4c43-b9b8-35a38639e2c4")
 		)
@@ -39392,7 +41809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 171.45 144.78 0)
 			(effects
 				(font
@@ -39411,6 +41828,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCASU32MAB7106KPNA01"
 			(at 171.45 144.78 0)
 			(effects
 				(font
@@ -39461,7 +41887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
 			(at 218.44 394.97 0)
 			(effects
 				(font
@@ -39480,6 +41906,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 218.44 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
 			(at 218.44 394.97 0)
 			(effects
 				(font
@@ -39530,7 +41965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 586.74 414.02 0)
 			(effects
 				(font
@@ -39549,6 +41984,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 586.74 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 586.74 414.02 0)
 			(effects
 				(font
@@ -39617,6 +42061,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 459.74 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 459.74 320.04 0)
 			(effects
 				(font
@@ -39794,6 +42247,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "TDA1558Q"
+			(at 685.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2e75c31-8be5-49f4-96ca-b6b7b75aacb0")
 		)
@@ -39906,6 +42368,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 530.86 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea8b4266-07e8-4b1d-a0f5-1c573cb2cc95")
 		)
@@ -39949,7 +42420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 496.57 186.69 0)
 			(effects
 				(font
@@ -39968,6 +42439,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 496.57 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 496.57 186.69 0)
 			(effects
 				(font
@@ -40035,6 +42515,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 580.39 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0712KL"
 			(at 580.39 246.38 0)
 			(effects
 				(font
@@ -40218,7 +42707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 514.35 186.69 0)
 			(effects
 				(font
@@ -40237,6 +42726,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 514.35 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 514.35 186.69 0)
 			(effects
 				(font
@@ -40312,6 +42810,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
+			(at 548.64 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95045d80-1c23-479e-85f3-e8b213553286")
 		)
@@ -40354,7 +42861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
 			(at 182.88 191.77 0)
 			(effects
 				(font
@@ -40373,6 +42880,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 182.88 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
 			(at 182.88 191.77 0)
 			(effects
 				(font
@@ -40449,6 +42965,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 762 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4c19ec5-8d0b-435a-9608-b6f8e029d893")
 		)
@@ -40492,7 +43017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 572.77 497.84 0)
 			(effects
 				(font
@@ -40511,6 +43036,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 572.77 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 572.77 497.84 0)
 			(effects
 				(font
@@ -40628,7 +43162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 480.06 524.51 0)
 			(effects
 				(font
@@ -40647,6 +43181,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 480.06 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 480.06 524.51 0)
 			(effects
 				(font
@@ -40722,6 +43265,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 610.87 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "41aeb975-2340-4545-a447-a04a8e54e9a3")
 		)
@@ -40783,7 +43335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 267.97 401.32 0)
 			(effects
 				(font
@@ -40802,6 +43354,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 267.97 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 267.97 401.32 0)
 			(effects
 				(font
@@ -41009,6 +43570,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 485.14 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7b7f690-5278-42fb-a6df-3dec99035d57")
 		)
@@ -41089,6 +43659,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "HRG3216P-1202-D-T1"
 			(at 162.56 146.05 0)
 			(effects
 				(font
@@ -41206,7 +43785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 449.58 351.79 0)
 			(effects
 				(font
@@ -41225,6 +43804,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 449.58 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 449.58 351.79 0)
 			(effects
 				(font
@@ -41293,6 +43881,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 458.47 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 458.47 345.44 0)
 			(effects
 				(font
@@ -41386,6 +43983,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0daf9c3-6b53-4102-aff1-c45ffc2d46a2")
 		)
@@ -41468,6 +44074,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA2134")
+		(at 320.04 459.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d71adfb-634f-4cfb-9f27-1ca850cd92d0")
+		(property "Reference" "U28"
+			(at 320.04 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2134"
+			(at 320.04 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
+			(at 320.04 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 320.04 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 320.04 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 320.04 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0efb70a2-658a-47ab-98ca-83ba07665ca5")
+		)
+		(pin "6"
+			(uuid "bba116ca-5f27-47e3-92f0-b38b1637349d")
+		)
+		(pin "8"
+			(uuid "242491c1-b49d-4ae2-a068-41638a2561ca")
+		)
+		(pin "5"
+			(uuid "70ea7958-3350-4057-92f9-edcab870b75f")
+		)
+		(pin "2"
+			(uuid "6f50cf08-25de-4b22-80a6-810a10940277")
+		)
+		(pin "4"
+			(uuid "c6ab6a55-eafd-48ca-b064-78106e89791e")
+		)
+		(pin "7"
+			(uuid "c2fb97e5-f7d9-4100-8125-1e9a9dd2cd4c")
+		)
+		(pin "1"
+			(uuid "9ced9dfb-146f-458e-9d5d-0117734ce421")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 483.87 462.28 180)
 		(unit 1)
@@ -41494,7 +44194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 483.87 462.28 0)
 			(effects
 				(font
@@ -41513,6 +44213,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 483.87 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 483.87 462.28 0)
 			(effects
 				(font
@@ -41680,6 +44389,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "LMR51430YFDDCR"
+			(at 129.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1ddf0f85-6ac8-40e4-9480-8d5b5aabf48b")
 		)
@@ -41760,6 +44478,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 762 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb71d060-92ba-49d7-bc65-d723debec21c")
 		)
@@ -41803,7 +44530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 708.66 53.34 0)
 			(effects
 				(font
@@ -41822,6 +44549,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 708.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 708.66 53.34 0)
 			(effects
 				(font
@@ -41897,6 +44633,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 444.5 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e860f499-ab07-4f2b-a337-b536b1e84849")
 		)
@@ -41956,6 +44701,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 580.39 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0712KL"
 			(at 580.39 292.1 0)
 			(effects
 				(font
@@ -42097,6 +44851,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0712KL"
+			(at 574.04 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccea6e4c-44ea-44ae-a861-e87d03c1d625")
 		)
@@ -42164,6 +44927,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 605.79 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b515b945-1478-4014-a2e9-18f0f4e94c04")
 		)
@@ -42207,7 +44979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 721.36 53.34 0)
 			(effects
 				(font
@@ -42226,6 +44998,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 721.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "EGPD350ELL222MK30H"
 			(at 721.36 53.34 0)
 			(effects
 				(font
@@ -42368,6 +45149,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 774.7 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be3ef074-f5f4-41ab-955d-b3ca1172d0b5")
 		)
@@ -42436,6 +45226,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE07470RL"
+			(at 308.61 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b30eb3fc-723b-48e2-8140-13bc1eb5b532")
 		)
@@ -42477,7 +45276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 660.4 99.06 0)
 			(effects
 				(font
@@ -42496,6 +45295,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 660.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" " GRM31C5C1H224JE02L"
 			(at 660.4 99.06 0)
 			(effects
 				(font
@@ -42566,6 +45374,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 543.56 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
 			(at 543.56 457.2 0)
 			(effects
 				(font
@@ -42653,6 +45470,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 656.59 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "addd8e9a-ea43-4fdc-a541-aa656c16b7a0")
 		)
@@ -42712,6 +45538,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 373.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
 			(at 373.38 81.28 0)
 			(effects
 				(font
@@ -42988,6 +45823,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 760.73 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4dc39fb-b00a-4456-82d2-a186e3aaa2a7")
 		)
@@ -43048,6 +45892,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 439.42 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 439.42 284.48 0)
 			(effects
 				(font
@@ -43208,6 +46061,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 674.37 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "00a28cd2-98e6-4cb7-82e6-fe68cd5ac74d")
 		)
@@ -43268,7 +46130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 208.28 205.74 0)
 			(effects
 				(font
@@ -43287,6 +46149,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 208.28 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCASU32MAB7106KPNA01"
 			(at 208.28 205.74 0)
 			(effects
 				(font
@@ -43338,7 +46209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
 			(at 279.4 373.38 0)
 			(effects
 				(font
@@ -43357,6 +46228,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 279.4 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
 			(at 279.4 373.38 0)
 			(effects
 				(font
@@ -43408,7 +46288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 149.86 180.34 0)
 			(effects
 				(font
@@ -43427,6 +46307,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 149.86 180.34 0)
 			(effects
 				(font
@@ -43494,6 +46383,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 598.17 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 598.17 243.84 0)
 			(effects
 				(font
@@ -43628,7 +46526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 171.45 106.68 0)
 			(effects
 				(font
@@ -43647,6 +46545,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CL32B226KAJNNNE"
 			(at 171.45 106.68 0)
 			(effects
 				(font
@@ -43697,7 +46604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 687.07 414.02 0)
 			(effects
 				(font
@@ -43716,6 +46623,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 687.07 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 687.07 414.02 0)
 			(effects
 				(font
@@ -43806,6 +46722,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA2134")
+		(at 311.15 537.21 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0902a92-0d68-4f7e-bc30-c269801799e9")
+		(property "Reference" "U28"
+			(at 311.15 534.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2134"
+			(at 311.15 537.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AudioSystemFootprintLibrary:OPA2134UA"
+			(at 311.15 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 311.15 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 311.15 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 311.15 537.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0efb70a2-658a-47ab-98ca-83ba07665ca6")
+		)
+		(pin "6"
+			(uuid "bba116ca-5f27-47e3-92f0-b38b1637349e")
+		)
+		(pin "8"
+			(uuid "242491c1-b49d-4ae2-a068-41638a2561cb")
+		)
+		(pin "5"
+			(uuid "70ea7958-3350-4057-92f9-edcab870b760")
+		)
+		(pin "2"
+			(uuid "6f50cf08-25de-4b22-80a6-810a10940278")
+		)
+		(pin "4"
+			(uuid "c6ab6a55-eafd-48ca-b064-78106e89791f")
+		)
+		(pin "7"
+			(uuid "c2fb97e5-f7d9-4100-8125-1e9a9dd2cd4d")
+		)
+		(pin "1"
+			(uuid "9ced9dfb-146f-458e-9d5d-0117734ce422")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "U28")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 384.81 467.36 90)
 		(unit 1)
@@ -43849,6 +46860,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 384.81 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 384.81 467.36 0)
 			(effects
 				(font
@@ -43939,6 +46959,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 63.5 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b168a456-553a-4960-a3ef-1873e91141f3")
+		(property "Reference" "C111"
+			(at 66.04 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000u"
+			(at 66.04 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UKT1V102MHD1TO"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f2703be-2bde-4506-932d-d7538f6dd481")
+		)
+		(pin "1"
+			(uuid "94f2d4e0-640b-471b-8f46-934a0ad46342")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 377.19 303.53 90)
 		(unit 1)
@@ -43982,6 +47080,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 377.19 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 377.19 303.53 0)
 			(effects
 				(font
@@ -44049,6 +47156,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 674.37 420.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
 			(at 674.37 420.37 0)
 			(effects
 				(font
@@ -44297,7 +47413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 81.28 139.7 0)
 			(effects
 				(font
@@ -44316,6 +47432,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "C1206C103J1RACTU"
 			(at 81.28 139.7 0)
 			(effects
 				(font
@@ -44391,6 +47516,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 543.56 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56412553-a7eb-400a-a1a7-9e02ec6f1219")
 		)
@@ -44458,6 +47592,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 377.19 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3d80c09-970e-46cf-b6b7-7b267edf9deb")
 		)
@@ -44501,7 +47644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.63 139.7 0)
 			(effects
 				(font
@@ -44520,6 +47663,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 87.63 139.7 0)
 			(effects
 				(font
@@ -44588,6 +47740,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 773.43 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 773.43 406.4 0)
 			(effects
 				(font
@@ -44799,6 +47960,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 530.86 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b247a79c-3d7f-441d-bdb4-1d562da56c96")
 		)
@@ -44871,6 +48041,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 674.37 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 674.37 414.02 0)
 			(effects
 				(font
@@ -45005,7 +48184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 111.76 139.7 0)
 			(effects
 				(font
@@ -45024,6 +48203,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GCJ31CR71H225KA12L"
 			(at 111.76 139.7 0)
 			(effects
 				(font
@@ -45297,6 +48485,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0756KL"
+			(at 588.01 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54c57604-bc19-4d4d-9c9a-f39d82c4673c")
 		)
@@ -45339,7 +48536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 483.87 416.56 0)
 			(effects
 				(font
@@ -45358,6 +48555,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 483.87 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 483.87 416.56 0)
 			(effects
 				(font
@@ -45409,7 +48615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 645.16 500.38 0)
 			(effects
 				(font
@@ -45428,6 +48634,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 645.16 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 645.16 500.38 0)
 			(effects
 				(font
@@ -45503,6 +48718,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 643.89 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b558d376-69f1-457a-ab76-c6b0dd653983")
 		)
@@ -45562,6 +48786,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 618.49 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRD072KL"
 			(at 618.49 466.09 0)
 			(effects
 				(font
@@ -45637,6 +48870,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 605.79 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "208d790a-8ef6-4e79-ada7-e398ab1992b0")
 		)
@@ -45696,6 +48938,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 643.89 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
 			(at 643.89 229.87 0)
 			(effects
 				(font
@@ -45814,7 +49065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 292.1 148.59 0)
 			(effects
 				(font
@@ -45841,6 +49092,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "MCASU32MAB7106KPNA01"
+			(at 292.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7dc3ef2-47d4-4714-baba-95f5b24468db")
 		)
@@ -45851,6 +49111,72 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 320.04 547.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c634c1d0-a8c8-488c-a226-cd6d787ae653")
+		(property "Reference" "#PWR0144"
+			(at 320.04 553.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 320.04 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 320.04 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dbe816a-febf-4792-9046-00cac6dc9ae7")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -45883,7 +49209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 471.17 243.84 0)
 			(effects
 				(font
@@ -45902,6 +49228,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 471.17 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 471.17 243.84 0)
 			(effects
 				(font
@@ -45952,7 +49287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 574.04 287.02 0)
 			(effects
 				(font
@@ -45971,6 +49306,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 574.04 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 574.04 287.02 0)
 			(effects
 				(font
@@ -46021,7 +49365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 195.58 157.48 0)
 			(effects
 				(font
@@ -46040,6 +49384,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 195.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "C1206C105K3RAC7800"
 			(at 195.58 157.48 0)
 			(effects
 				(font
@@ -46182,6 +49535,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 774.7 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b9ffca9-5046-4b17-8f6e-cb61e496c516")
 		)
@@ -46242,6 +49604,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 773.43 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 773.43 416.56 0)
 			(effects
 				(font
@@ -46489,7 +49860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 478.79 232.41 0)
 			(effects
 				(font
@@ -46508,6 +49879,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 478.79 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 478.79 232.41 0)
 			(effects
 				(font
@@ -46583,6 +49963,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 388.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a5c22e18-51ae-427f-8bdb-53b8386657a4")
 		)
@@ -46644,7 +50033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 146.05 135.89 0)
 			(effects
 				(font
@@ -46663,6 +50052,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 146.05 135.89 0)
 			(effects
 				(font
@@ -46731,6 +50129,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 598.17 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 598.17 289.56 0)
 			(effects
 				(font
@@ -46817,6 +50224,15 @@
 			)
 		)
 		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
+			(at 209.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "LP5907MFX-3.3"
 			(at 209.55 115.57 0)
 			(effects
 				(font
@@ -46962,6 +50378,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 162.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" " HRG3216P-1102-D-T1"
 			(at 162.56 107.95 0)
 			(effects
 				(font
@@ -47159,6 +50584,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "SJ1-3515-SMT-TR-BE"
+			(at 44.45 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c504c51-2ed6-484a-8c44-2fca7f651bfd")
 		)
@@ -47228,6 +50662,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 394.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 394.97 180.34 0)
 			(effects
 				(font
@@ -47321,6 +50764,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 421.64 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58e54271-13e0-4359-8456-8cf96946f5cf")
 		)
@@ -47388,6 +50840,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 377.19 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ce333cf-8430-4814-b910-c21cf72ba0fa")
 		)
@@ -47431,7 +50892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 321.0052 397.51 0)
 			(effects
 				(font
@@ -47450,6 +50911,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 320.04 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "AC1206JRNPO9BN222"
 			(at 320.04 393.7 0)
 			(effects
 				(font
@@ -47517,6 +50987,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 661.67 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
 			(at 661.67 293.37 0)
 			(effects
 				(font
@@ -47607,6 +51086,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 63.5 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d280e830-0b2b-420e-8d22-4216a58d33ea")
+		(property "Reference" "C37"
+			(at 66.04 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000u"
+			(at 66.04 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "UKT1V102MHD1TO"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "844508bc-ee06-42f8-b0fb-9e71208236cc")
+		)
+		(pin "1"
+			(uuid "30fb557f-ec30-4c1b-9196-e91f766d6de6")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA2134")
 		(at 561.34 459.74 0)
 		(unit 2)
@@ -47651,6 +51208,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 561.34 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 561.34 459.74 0)
 			(effects
 				(font
@@ -47884,6 +51450,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0712KL"
+			(at 561.34 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35f3f19e-e344-4d85-9b5e-407a3bab2a62")
 		)
@@ -47943,6 +51518,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 541.02 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 541.02 297.18 0)
 			(effects
 				(font
@@ -48018,6 +51602,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 618.49 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac9c42ad-01df-4054-a1b0-d19678c4f011")
 		)
@@ -48060,7 +51653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 81.28 184.15 0)
 			(effects
 				(font
@@ -48079,6 +51672,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "C1206C103J1RACTU"
 			(at 81.28 184.15 0)
 			(effects
 				(font
@@ -48149,6 +51751,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
 			(at 373.38 157.48 0)
 			(effects
 				(font
@@ -48229,6 +51840,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 795.02 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 795.02 414.02 0)
 			(effects
 				(font
@@ -48322,6 +51942,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE0716KL"
+			(at 463.55 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efbea745-c56f-4b9a-a1e4-12bba456a308")
 		)
@@ -48381,6 +52010,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 702.31 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE077K5L"
 			(at 702.31 464.82 0)
 			(effects
 				(font
@@ -48456,6 +52094,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 384.81 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d0937af-d27e-4f45-bbc9-4b3c577a64bc")
 		)
@@ -48523,6 +52170,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE0716KL"
+			(at 476.25 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83392df4-3e00-4c0c-8f49-098f56c943ee")
 		)
@@ -48582,6 +52238,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 674.37 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
 			(at 674.37 466.09 0)
 			(effects
 				(font
@@ -48724,6 +52389,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RN732BTTD3200F50"
+			(at 344.17 502.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef837a5f-5a9d-471f-9a33-e257aa159a30")
 		)
@@ -48783,6 +52457,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 666.75 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 666.75 424.18 0)
 			(effects
 				(font
@@ -48851,6 +52534,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 641.35 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 641.35 342.9 0)
 			(effects
 				(font
@@ -48986,7 +52678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 560.07 325.12 0)
 			(effects
 				(font
@@ -49005,6 +52697,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 560.07 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 560.07 325.12 0)
 			(effects
 				(font
@@ -49238,6 +52939,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 643.89 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "87e4cb2f-0ab6-4aa5-9681-7493fbd9eb5c")
 		)
@@ -49359,7 +53069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 441.96 186.69 0)
 			(effects
 				(font
@@ -49378,6 +53088,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 441.96 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 441.96 186.69 0)
 			(effects
 				(font
@@ -49520,6 +53239,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 661.67 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "795b6783-a603-47ee-b85f-abb952132f7e")
 		)
@@ -49605,6 +53333,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE077K5L"
+			(at 704.85 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abf1f453-bd2d-48db-b9c7-c7988ec104b9")
 		)
@@ -49665,6 +53402,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 471.17 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 471.17 518.16 0)
 			(effects
 				(font
@@ -49819,6 +53565,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 434.34 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
 			(at 434.34 454.66 0)
 			(effects
 				(font
@@ -50038,6 +53793,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE0716KL"
+			(at 476.25 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a305fa70-76a0-42fd-99f9-23710394aeba")
 		)
@@ -50214,7 +53978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 687.07 459.74 0)
 			(effects
 				(font
@@ -50233,6 +53997,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 687.07 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 687.07 459.74 0)
 			(effects
 				(font
@@ -50308,6 +54081,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
+			(at 452.12 463.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43d7b772-ce76-4a0b-923b-596cfbbcc8af")
 		)
@@ -50350,7 +54132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 684.53 241.3 0)
 			(effects
 				(font
@@ -50369,6 +54151,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 684.53 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 684.53 241.3 0)
 			(effects
 				(font
@@ -50551,7 +54342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 224.79 394.97 0)
 			(effects
 				(font
@@ -50570,6 +54361,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 224.79 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 224.79 394.97 0)
 			(effects
 				(font
@@ -50588,76 +54388,6 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 63.5 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2ce66ca-176d-4866-aed9-0cb960a69b40")
-		(property "Reference" "C37"
-			(at 66.04 138.4362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000u"
-			(at 66.04 140.9762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 63.5 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f4d1050e-3ced-457a-a1a0-613f08fd7400")
-		)
-		(pin "1"
-			(uuid "22458875-513f-43de-b076-0c1d927a5667")
-		)
-		(instances
-			(project "AudioSystemFull"
-				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
-					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -50708,6 +54438,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 505.46 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 505.46 180.34 0)
 			(effects
 				(font
@@ -50862,6 +54601,15 @@
 			)
 		)
 		(property "Description" "2.1 VRMS, 112dB Audio Stereo DAC with PLL and 32-bit, 384kHz PCM Interface, TSSOP-20"
+			(at 246.38 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "PCM5102A"
 			(at 246.38 382.27 0)
 			(effects
 				(font
@@ -51058,6 +54806,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 402.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ba2e999-bd40-4daf-8e36-a01c933371eb")
 		)
@@ -51191,6 +54948,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE077K5L"
+			(at 702.31 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8cba1c8a-eafa-4abb-8b81-c4a0815e7e71")
 		)
@@ -51316,6 +55082,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 434.34 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
 			(at 434.34 445.77 0)
 			(effects
 				(font
@@ -51483,7 +55258,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "lt3015eq5#pbf"
+		(property "MANUFACTURER_PART_NUMBER" "LT3015EQ-5PBF"
 			(at 233.68 194.31 0)
 			(effects
 				(font
@@ -51548,7 +55323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 746.76 334.01 0)
 			(effects
 				(font
@@ -51567,6 +55342,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 746.76 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 746.76 334.01 0)
 			(effects
 				(font
@@ -51637,6 +55421,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 373.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
 			(at 373.38 88.9 0)
 			(effects
 				(font
@@ -51856,6 +55649,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 654.05 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8904720e-1b3e-4ec2-b1f6-a2378c036773")
 		)
@@ -52032,6 +55834,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MODULE_DEVKIT_V1_ESP32-WROOM-32"
+			(at 146.05 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -52276,6 +56087,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE077K5L"
+			(at 692.15 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fabf678-1e65-43c4-be13-710f03d767b4")
 		)
@@ -52409,6 +56229,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
+			(at 431.8 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75fa6337-414d-473c-a0bf-a3b3e38ccaf5")
 		)
@@ -52468,6 +56297,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 689.61 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206FRE077K5L"
 			(at 689.61 246.38 0)
 			(effects
 				(font
@@ -52536,6 +56374,15 @@
 			)
 		)
 		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
+			(at 209.55 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "LP5907MFX-3.3"
 			(at 209.55 153.67 0)
 			(effects
 				(font
@@ -52818,6 +56665,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "LMR51420YFDDCR"
+			(at 133.35 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "841807f0-d0cb-4578-8fbf-a5cd5918f818")
 		)
@@ -52963,6 +56819,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" " RN73R2ATTD5000B25"
+			(at 548.64 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84eb197d-030e-4d3b-9623-4de30525ade5")
 		)
@@ -53006,7 +56871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 481.33 499.11 0)
 			(effects
 				(font
@@ -53025,6 +56890,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 481.33 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 481.33 499.11 0)
 			(effects
 				(font
@@ -53100,6 +56974,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0756KL"
+			(at 600.71 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2daa7afd-a2a6-4683-ba19-7ce6e2b7bfa6")
 		)
@@ -53159,6 +57042,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206DRE0710KL"
 			(at 92.71 370.84 0)
 			(effects
 				(font
@@ -53234,6 +57126,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RT1206BRD075KL"
+			(at 530.86 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf2eb846-5020-4bed-a2c3-50a0bfd565d9")
 		)
@@ -53294,6 +57195,15 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 737.87 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
 			(at 737.87 327.66 0)
 			(effects
 				(font
@@ -53578,6 +57488,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 774.7 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 774.7 454.66 0)
 			(effects
 				(font
@@ -53919,6 +57838,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCU1206BTE100K"
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "09f3eb50-c1eb-4590-95d1-47079a8cf81c")
 		)
@@ -54028,7 +57956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 146.05 97.79 0)
 			(effects
 				(font
@@ -54047,6 +57975,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 146.05 97.79 0)
 			(effects
 				(font
@@ -54211,6 +58148,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "OPA2134UA"
+			(at 497.84 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7b7f690-5278-42fb-a6df-3dec99035d5a")
 		)
@@ -54338,7 +58284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 386.08 186.69 0)
 			(effects
 				(font
@@ -54357,6 +58303,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 386.08 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "VJ1206Y104JXAAR"
 			(at 386.08 186.69 0)
 			(effects
 				(font
@@ -54501,6 +58456,15 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" "PTN092H10120K1B"
+			(at 421.64 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a98e5c75-f568-40e9-bdde-267837973a7f")
 		)
@@ -54554,7 +58518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 478.79 278.13 0)
 			(effects
 				(font
@@ -54573,6 +58537,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 478.79 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CGA5C2NP01H223J060AA"
 			(at 478.79 278.13 0)
 			(effects
 				(font
@@ -54706,6 +58679,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 553.72 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RNCP1206FTD1K00"
 			(at 553.72 469.9 0)
 			(effects
 				(font

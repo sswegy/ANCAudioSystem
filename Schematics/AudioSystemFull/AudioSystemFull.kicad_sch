@@ -22721,7 +22721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 218.44 405.13 0)
 			(effects
 				(font
@@ -22748,7 +22748,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
+		(property "MANUFACTURER_PART_NUMBER" "293D106X96R3A2TE3"
 			(at 218.44 405.13 0)
 			(effects
 				(font
@@ -23467,7 +23467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 279.4 401.32 0)
 			(effects
 				(font
@@ -23494,7 +23494,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
+		(property "MANUFACTURER_PART_NUMBER" "293D106X96R3A2TE3"
 			(at 279.4 401.32 0)
 			(effects
 				(font
@@ -42031,7 +42031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 218.44 394.97 0)
 			(effects
 				(font
@@ -42058,7 +42058,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
+		(property "MANUFACTURER_PART_NUMBER" "293D106X96R3A2TE3"
 			(at 218.44 394.97 0)
 			(effects
 				(font
@@ -46362,7 +46362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AudioSystemFootprintLibrary:UCZ1J100MCL1GS"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 279.4 373.38 0)
 			(effects
 				(font
@@ -46389,7 +46389,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "UCZ1J100MCL1GS"
+		(property "MANUFACTURER_PART_NUMBER" "293D106X96R3A2TE3"
 			(at 279.4 373.38 0)
 			(effects
 				(font

@@ -3340,165 +3340,6 @@
 				)
 			)
 		)
-		(symbol "C_Polarized_Small_US_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small_US"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_US_1_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -0.762)
-					(mid 0 -0.3734)
-					(end -1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_US_1_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -7413,6 +7254,10 @@
 		(uuid "ffa9f0e3-c043-45e7-a945-f8a9ff7a5bbc")
 	)
 	(no_connect
+		(at 195.58 344.17)
+		(uuid "0362d4d5-8293-4105-921b-b9976f8e8b5c")
+	)
+	(no_connect
 		(at 125.73 407.67)
 		(uuid "059068bc-a24c-4cb4-9191-6261404c84a2")
 	)
@@ -7477,6 +7322,10 @@
 		(uuid "7fe84644-78af-41a7-bc51-2314c961cd84")
 	)
 	(no_connect
+		(at 208.28 344.17)
+		(uuid "812f5c02-fe0e-4bba-9133-02b897fbe61b")
+	)
+	(no_connect
 		(at 125.73 387.35)
 		(uuid "84e44ae8-0337-414b-ac0d-d950178f1e9a")
 	)
@@ -7501,10 +7350,6 @@
 		(uuid "9beae017-bec0-4339-a45d-82feb5925a61")
 	)
 	(no_connect
-		(at 208.28 346.71)
-		(uuid "9e8887c0-d1c6-4090-917c-783e83f425c5")
-	)
-	(no_connect
 		(at 125.73 397.51)
 		(uuid "9f577006-40c8-461c-b39a-1676662f0acd")
 	)
@@ -7527,10 +7372,6 @@
 	(no_connect
 		(at 166.37 415.29)
 		(uuid "e2862bd7-f412-4c2b-b4fe-98c3da322239")
-	)
-	(no_connect
-		(at 195.58 346.71)
-		(uuid "ebe833bd-30b7-4d99-a3fd-aa1d67010291")
 	)
 	(no_connect
 		(at 125.73 412.75)
@@ -17180,16 +17021,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 415.29) (xy 125.73 415.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd597c1a-c619-4d66-91b8-219e879435c5")
-	)
-	(wire
-		(pts
 			(xy 566.42 241.3) (xy 567.69 241.3)
 		)
 		(stroke
@@ -17913,7 +17744,7 @@
 	)
 	(global_label "+5VDigital"
 		(shape input)
-		(at 115.57 415.29 180)
+		(at 125.73 415.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17923,7 +17754,7 @@
 		)
 		(uuid "357113c5-47af-4b78-81c5-c55780e84e4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.5458 415.29 0)
+			(at 112.7058 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18111,7 +17942,7 @@
 	)
 	(global_label "AVRCP_NEXT"
 		(shape input)
-		(at 166.37 387.35 0)
+		(at 166.37 389.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18121,7 +17952,7 @@
 		)
 		(uuid "41461632-4bac-4438-a701-da62c7bdcc88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.9666 387.35 0)
+			(at 180.9666 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18419,7 +18250,7 @@
 	)
 	(global_label "AVRCP_PLAY"
 		(shape input)
-		(at 166.37 389.89 0)
+		(at 166.37 387.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18429,7 +18260,7 @@
 		)
 		(uuid "53dc15a8-1777-4780-ac71-52774bfb88bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.7853 389.89 0)
+			(at 180.7853 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19233,7 +19064,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 208.28 344.17 0)
+		(at 208.28 346.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19243,7 +19074,7 @@
 		)
 		(uuid "8f309874-f7cb-40f7-8293-07fb4fc80b07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.8247 344.17 0)
+			(at 218.8247 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19321,7 +19152,7 @@
 	)
 	(global_label "AVRC_PREV"
 		(shape output)
-		(at 195.58 349.25 180)
+		(at 195.58 354.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19331,7 +19162,7 @@
 		)
 		(uuid "91ca9393-fd56-4f4a-a295-7bed82b37bdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.1324 349.25 0)
+			(at 182.1324 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19585,7 +19416,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 195.58 344.17 180)
+		(at 195.58 346.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19595,7 +19426,7 @@
 		)
 		(uuid "acf7be31-705f-4c5f-978d-4b98e9b291c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.9748 344.17 0)
+			(at 184.9748 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20289,7 +20120,7 @@
 	)
 	(global_label "AVRCP_NEXT"
 		(shape output)
-		(at 195.58 354.33 180)
+		(at 195.58 349.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20299,7 +20130,7 @@
 		)
 		(uuid "ec3d000c-fe7f-4227-be65-b5e71bdc7533")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.9834 354.33 0)
+			(at 180.9834 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22188,84 +22019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 218.44 405.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "084b81cc-901f-4086-8727-b36a2ce778a3")
-		(property "Reference" "C4"
-			(at 219.964 401.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 219.964 403.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 218.44 405.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 405.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 218.44 405.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "293D106X96R3A2TE3"
-			(at 218.44 405.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6797095-c054-4d00-bb49-335adeff9d07")
-		)
-		(pin "2"
-			(uuid "6fd000cf-e95b-480d-afc7-06d83f0022b3")
-		)
-		(instances
-			(project "AudioSystemFull"
-				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 171.45 111.76 0)
 		(unit 1)
@@ -22860,86 +22613,6 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "R113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_Polarized_Small_US_1")
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 279.4 401.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a1ff112-876d-460d-9a13-70a663a353a5")
-		(property "Reference" "C12"
-			(at 281.94 400.4817 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 281.94 403.0217 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 279.4 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 279.4 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "293D106X96R3A2TE3"
-			(at 279.4 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5fb60c9-a825-4e2f-be49-82f3fe77e75a")
-		)
-		(pin "2"
-			(uuid "2df92c47-1b12-44a5-b9a6-5699ea894038")
-		)
-		(instances
-			(project "AudioSystemFull"
-				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -25993,6 +25666,84 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 405.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23655eda-1e22-4ce8-aadd-a24dc831e8f1")
+		(property "Reference" "C4"
+			(at 220.472 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 220.472 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 218.44 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCASU32MAB7106KPNA01"
+			(at 218.44 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca7302f3-8268-4af2-9842-0864be9f5947")
+		)
+		(pin "1"
+			(uuid "82004e49-193d-473b-ba40-26ba67da0cd3")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -40027,6 +39778,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 279.4 401.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84452b4d-9ea6-4a26-9988-a4fe6e396b99")
+		(property "Reference" "C12"
+			(at 281.432 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 281.432 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 279.4 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 279.4 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCASU32MAB7106KPNA01"
+			(at 279.4 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bbea426-6cf1-44bc-b879-906f5ab9f0fa")
+		)
+		(pin "1"
+			(uuid "26338157-0931-482e-97ca-6a6713f65bb3")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Dual_Separate")
 		(at 373.38 124.46 0)
 		(mirror x)
@@ -41696,84 +41525,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 218.44 394.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93db1de2-187f-490f-9501-1f1196519f14")
-		(property "Reference" "C3"
-			(at 212.344 393.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 212.344 395.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 218.44 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 218.44 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "293D106X96R3A2TE3"
-			(at 218.44 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60807b69-a8e1-48ed-a2e6-1056195ff07a")
-		)
-		(pin "2"
-			(uuid "05aacbc8-ecdc-450f-8b1f-c8a0c1b1712a")
-		)
-		(instances
-			(project "AudioSystemFull"
-				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 586.74 414.02 270)
 		(unit 1)
@@ -43436,6 +43187,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 394.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ae97531-c2b3-42df-8482-a11305017479")
+		(property "Reference" "C3"
+			(at 220.472 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 220.472 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 218.44 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCASU32MAB7106KPNA01"
+			(at 218.44 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0f10dd1-e2c1-437a-8b00-7c50c97feb2f")
+		)
+		(pin "1"
+			(uuid "3e2e23f8-446d-4d7d-8efc-3701e14f71d3")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 162.56 146.05 0)
 		(unit 1)
@@ -44297,6 +44126,72 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 721.36 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eca3f29-e020-4444-ab4c-d59309ebbdbc")
+		(property "Reference" "#PWR020"
+			(at 721.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 721.233 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 721.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 721.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 721.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1679efbc-2da3-4826-ab7c-80ae394364bb")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -45983,85 +45878,6 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 279.4 373.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aadfb123-deab-4d27-954d-0a00c36fd993")
-		(property "Reference" "C11"
-			(at 281.94 372.5417 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 281.94 375.0817 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 279.4 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 279.4 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "293D106X96R3A2TE3"
-			(at 279.4 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50e062f3-2283-423e-99b9-3a9a94257984")
-		)
-		(pin "2"
-			(uuid "dbc7d730-676c-4287-9bc3-5d6e80595d4f")
-		)
-		(instances
-			(project "AudioSystemFull"
-				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -48926,6 +48742,84 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 279.4 373.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4f5b7ec-aa28-4349-aca1-89598164574c")
+		(property "Reference" "C11"
+			(at 281.432 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 281.432 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 279.4 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 279.4 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCASU32MAB7106KPNA01"
+			(at 279.4 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0eb7a9d-c559-4cb0-96fa-eb2742b37ee6")
+		)
+		(pin "1"
+			(uuid "391ee66c-8ec7-4a3d-999d-01040970d03d")
+		)
+		(instances
+			(project "AudioSystemFull"
+				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -52390,72 +52284,6 @@
 			(project "AudioSystemFull"
 				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
 					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 721.36 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db15bd28-79ac-4010-a07a-5697d4865ec3")
-		(property "Reference" "#PWR020"
-			(at 721.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 721.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 721.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 721.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 721.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12a889df-91c8-48a0-91c8-70db5c3d569f")
-		)
-		(instances
-			(project "AudioSystemFull"
-				(path "/3a48c782-0efd-407d-8605-0aaea5e43682"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)

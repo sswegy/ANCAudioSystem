@@ -12,8 +12,8 @@
 #define I2S_WS 25
 #define I2S_SD 26
 
-#define PLAY 18
-#define NEXT 19
+#define PLAY 19
+#define NEXT 18
 #define PREV 21
 
 #define AUX_LEFT 34

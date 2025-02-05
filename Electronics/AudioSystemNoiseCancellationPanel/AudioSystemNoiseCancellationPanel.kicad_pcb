@@ -1056,6 +1056,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "C:/Users/20vik/Documents/Diplomna/ANCAudioSystem/Schematics/KiCad_SnF_Library/3DModels/OPA134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -1064,7 +1075,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 2.7 0.58 360)
+			(at 2.7 0.58 0)
 			(layer "F.SilkS")
 			(uuid "be351d9d-f656-47b7-b142-54e6c3a751fd")
 			(effects
@@ -1490,7 +1501,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0.15 1.7 360)
+			(at 0.15 1.7 0)
 			(layer "F.SilkS")
 			(uuid "34ae3dd8-da98-40e1-9ff6-24dbc40eefb3")
 			(effects
@@ -1501,7 +1512,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "33e03f47-488e-4bd5-af22-023297b2d8b5")
 			(effects
@@ -1656,7 +1667,7 @@
 			(uuid "72cd5267-8dfa-41f3-814a-9f798374dffd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "eacf49f1-7e74-4144-9a97-a9a18f577e46")
 			(effects
@@ -2050,7 +2061,7 @@
 		(uuid "85cbdf95-acfe-4305-808f-ee48c919104e")
 		(at 84.08 74.75)
 		(property "Reference" "U2"
-			(at 0.02 1.85 360)
+			(at 0.02 1.85 0)
 			(layer "F.SilkS")
 			(uuid "37ca7e31-5c91-463e-bf05-0335fe5a2c57")
 			(effects
@@ -2061,7 +2072,7 @@
 			)
 		)
 		(property "Value" "MIC5365-1.2YC5-TR"
-			(at 4.7024 1.8064 360)
+			(at 4.7024 1.8064 0)
 			(layer "F.Fab")
 			(uuid "396c007b-c16b-4e24-888a-d7bfec7e3547")
 			(effects
@@ -2072,7 +2083,7 @@
 			)
 		)
 		(property "Footprint" "AudioSystemFootprintLibrary:MIC5365-1.2YC5-TR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d7175c2-84d5-4678-83a3-5516d10fa978")
@@ -2084,7 +2095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6282270b-8645-4479-ac15-afa294009a15")
@@ -2096,7 +2107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43433a66-dd46-4dfc-9447-353aaed4db21")
@@ -2437,6 +2448,17 @@
 			(uuid "1d9aadf8-eea9-4846-bb37-8b160638f87d")
 		)
 		(model "${MODEL3D_LIB_DIR}/MIC5365-1.2YC5-TR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/MIC5365-1.2YC5-TR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3158,7 +3180,7 @@
 			)
 		)
 		(property "Value" "ICS-40310"
-			(at 3.7832 1.9064 360)
+			(at 3.7832 1.9064 0)
 			(layer "F.Fab")
 			(uuid "e65fa602-99aa-4358-9c25-4049e4c7d3ce")
 			(effects
@@ -3169,7 +3191,7 @@
 			)
 		)
 		(property "Footprint" "AudioSystemFootprintLibrary:MIC_ICS-40310"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c838df3f-ab89-4d26-a70c-a4dd50c8cfcd")
@@ -3181,7 +3203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f4cea60c-9cbc-4474-aeec-c5a014c800b4")
@@ -3193,7 +3215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "911d2013-91e0-4c31-ac72-a3c988988d0f")
@@ -3829,6 +3851,17 @@
 			(uuid "37e64244-9a9d-4404-b69a-3cd4f018ca2f")
 		)
 		(model "${MODEL3D_LIB_DIR}/ICS-40310.step"
+			(offset
+				(xyz 0 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/ICS-40310.step"
 			(offset
 				(xyz 0 0.5 0)
 			)

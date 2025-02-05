@@ -736,6 +736,248 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1149,6 +1391,24 @@
 		(color 0 0 0 0)
 		(uuid "e3bac95f-879e-48b6-a1ed-efff359df2da")
 	)
+	(no_connect
+		(at 187.96 116.84)
+		(uuid "007f63d5-ff8b-4f07-821c-6b5b42f2f2f0")
+	)
+	(no_connect
+		(at 190.5 116.84)
+		(uuid "89c4b7be-276f-439e-a712-8d3e50ac49eb")
+	)
+	(wire
+		(pts
+			(xy 158.75 74.93) (xy 175.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d2353e-a659-402f-a696-12930d9f3029")
+	)
 	(wire
 		(pts
 			(xy 129.54 86.36) (xy 144.78 86.36)
@@ -1251,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 127) (xy 151.13 129.54)
+			(xy 144.78 127) (xy 144.78 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1288,16 +1548,6 @@
 			(type default)
 		)
 		(uuid "41c15e43-dd32-45ae-9acb-371618112804")
-	)
-	(wire
-		(pts
-			(xy 144.78 127) (xy 151.13 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ac690e1-7038-479d-967b-74440c3bbed4")
 	)
 	(wire
 		(pts
@@ -1579,6 +1829,50 @@
 		)
 		(uuid "fe3088ef-b76d-4132-a1da-6f7d2f2fe7fa")
 	)
+	(global_label "+5VAnalog"
+		(shape output)
+		(at 158.75 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33546289-e8a6-4b0e-8671-00eaf1bca950")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.9555 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANCSignal"
+		(shape input)
+		(at 158.75 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a067535-06c1-4835-a5f2-eb8e6c7bd49b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.3508 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ANCSignal"
 		(shape output)
 		(at 215.9 124.46 0)
@@ -1623,6 +1917,28 @@
 			)
 		)
 	)
+	(global_label "-5VAnalog"
+		(shape output)
+		(at 158.75 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "798fa54c-7eee-4fd1-b111-b9b5b09114d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.9555 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5VAnalog"
 		(shape input)
 		(at 72.39 86.36 180)
@@ -1646,7 +1962,7 @@
 		)
 	)
 	(global_label "-5VAnalog"
-		(shape output)
+		(shape input)
 		(at 185.42 104.14 90)
 		(fields_autoplaced yes)
 		(effects
@@ -1669,7 +1985,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 151.13 129.54 0)
+		(at 144.78 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1678,7 +1994,7 @@
 		(fields_autoplaced yes)
 		(uuid "1362592b-e75b-40be-bb7c-df6fa335f1c8")
 		(property "Reference" "#PWR05"
-			(at 151.13 135.89 0)
+			(at 144.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +2003,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 151.13 134.62 0)
+			(at 144.78 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +2011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 129.54 0)
+			(at 144.78 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +2020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 129.54 0)
+			(at 144.78 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +2029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 151.13 129.54 0)
+			(at 144.78 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,6 +2110,80 @@
 			(project "AudioSystemNoiseCancellationPanel"
 				(path "/861f3109-942e-421c-acb5-8f0f964c2004"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 153.67 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22a63b6b-2645-4e1c-8be4-44017976e499")
+		(property "Reference" "J1"
+			(at 154.305 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 154.305 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AudioSystemFootprintLibrary:4_Pad_Connector"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e806d98-631b-481d-b537-bb8a995a3a1c")
+		)
+		(pin "4"
+			(uuid "6556f4db-d91b-437b-8a13-717a8b823d1e")
+		)
+		(pin "1"
+			(uuid "4e4da73f-0783-4cdc-bcdc-d7a486ba2174")
+		)
+		(pin "3"
+			(uuid "1ace3a38-1c08-48f9-9c68-b4f7ab6a2373")
+		)
+		(instances
+			(project ""
+				(path "/861f3109-942e-421c-acb5-8f0f964c2004"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1913,7 +2303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -2049,7 +2439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 149.86 109.22 0)
 			(effects
 				(font
@@ -2182,7 +2572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 111.76 0)
 			(effects
 				(font
@@ -2482,6 +2872,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 175.26 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "985605a8-54c8-4b47-be98-8d49bb35cc7e")
+		(property "Reference" "#PWR07"
+			(at 175.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6358db9b-6231-4edf-bf3a-34d312697b77")
+		)
+		(instances
+			(project "AudioSystemNoiseCancellationPanel"
+				(path "/861f3109-942e-421c-acb5-8f0f964c2004"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 170.18 121.92 90)
 		(unit 1)
@@ -2507,7 +2963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 170.18 123.698 90)
 			(effects
 				(font
@@ -2838,7 +3294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -2906,7 +3362,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 134.62 0)
 			(effects
 				(font
@@ -2966,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "820k"
 			(at 190.5 101.6 90)
 			(effects
 				(font
@@ -2974,7 +3430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 190.5 107.188 90)
 			(effects
 				(font
@@ -3042,7 +3498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 157.48 121.92 0)
 			(effects
 				(font

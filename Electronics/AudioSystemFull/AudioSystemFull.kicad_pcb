@@ -778,6 +778,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/LMR51420YFDDCR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "AudioSystemFootprintLibrary:VLS6045EX-4R7M-H"
 		(layer "F.Cu")
@@ -986,6 +997,17 @@
 			(uuid "f7887575-d636-4b58-8d94-8f0ef6787072")
 		)
 		(model "${MODEL3D_LIB_DIR}/VLS6045EX-4R7M-H.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/VLS6045EX-4R7M-H.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3089,6 +3111,17 @@
 			(uuid "1f0f7a21-da3d-4690-943f-b153dd1e57bc")
 		)
 		(model "${MODEL3D_LIB_DIR}/SJ1-3515-SMT-TR-BE.STEP"
+			(offset
+				(xyz -9 0 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/SJ1-3515-SMT-TR-BE.STEP"
 			(offset
 				(xyz -9 0 2.5)
 			)
@@ -5940,6 +5973,17 @@
 		(model "${MODEL3D_LIB_DIR}/OtherPotentiometer.step"
 			(offset
 				(xyz 2.5 -6.5 7)
+			)
+			(scale
+				(xyz 1 0.6 0.6)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OtherPotentiometer.step"
+			(offset
+				(xyz 2.5 -7 8)
 			)
 			(scale
 				(xyz 1 0.6 0.6)
@@ -10147,6 +10191,17 @@
 			(uuid "cbb1c1b5-ec00-43b6-a651-9455662f8bf5")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15690,6 +15745,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -16432,6 +16498,17 @@
 			(uuid "62fe2e05-bd8a-478c-b404-7b8bacc6ed45")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19532,6 +19609,17 @@
 			)
 			(scale
 				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRN6045TA.step"
+			(offset
+				(xyz 0 0.2 0)
+			)
+			(scale
+				(xyz 0.6 0.5 0.5)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -23325,6 +23413,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -23841,6 +23940,17 @@
 			(uuid "c0646507-4026-48e2-b05d-b9f3b3bff148")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28701,6 +28811,17 @@
 				(xyz 90 -180 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/TDA1558Q.step"
+			(offset
+				(xyz 0 11.5 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -29346,6 +29467,17 @@
 			(uuid "8a052658-9c0a-480f-acf2-c5faacfa0c63")
 		)
 		(model "${MODEL3D_LIB_DIR}/LMR51420YFDDCR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/LMR51420YFDDCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31674,6 +31806,17 @@
 			)
 			(scale
 				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRN6045TA.step"
+			(offset
+				(xyz 0 0.2 0)
+			)
+			(scale
+				(xyz 0.6 0.5 0.5)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -36684,6 +36827,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -37794,6 +37948,17 @@
 			(uuid "a5e1cfe6-0598-459a-946c-67186d096a29")
 		)
 		(model "${MODEL3D_LIB_DIR}/LMR51420YFDDCR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/LMR51420YFDDCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40653,6 +40818,17 @@
 				(xyz -90 0 90)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OtherPotentiometer.step"
+			(offset
+				(xyz 2.5 -7 8)
+			)
+			(scale
+				(xyz 1 0.6 0.6)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -42525,6 +42701,17 @@
 			(uuid "535bd158-9620-4928-a38e-2e5edd74e0b6")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46398,6 +46585,17 @@
 				(xyz -90 0 90)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OtherPotentiometer.step"
+			(offset
+				(xyz 2.5 -7 8)
+			)
+			(scale
+				(xyz 1 0.6 0.6)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -47150,6 +47348,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "AudioSystemFootprintLibrary:OPA2134UA"
 		(layer "F.Cu")
@@ -47440,6 +47649,17 @@
 			(uuid "06f7bdd1-e42a-4a70-ac47-81550c268b3d")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50688,6 +50908,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -51666,6 +51897,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -52182,6 +52424,17 @@
 			(uuid "7382e84a-9135-476d-a984-a807ff8dae07")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -53685,6 +53938,17 @@
 				(xyz -90 0 90)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OtherPotentiometer.step"
+			(offset
+				(xyz 2.5 -7 8)
+			)
+			(scale
+				(xyz 1 0.6 0.6)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -54571,6 +54835,17 @@
 			(uuid "8e9f7072-19bf-4000-b492-cc6650852538")
 		)
 		(model "${MODEL3D_LIB_DIR}/VLS6045EX-4R7M-H.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/VLS6045EX-4R7M-H.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55625,6 +55900,17 @@
 			)
 		)
 		(model "${MODEL3D_LIB_DIR}/DEVKIT_V1_ESP32-WROOM-32.step"
+			(offset
+				(xyz 0 -2.5 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/DEVKIT_V1_ESP32-WROOM-32.step"
 			(offset
 				(xyz 0 -2.5 2)
 			)
@@ -56902,6 +57188,17 @@
 				(xyz -90 0 90)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OtherPotentiometer.step"
+			(offset
+				(xyz 2.5 -7 8)
+			)
+			(scale
+				(xyz 1 0.6 0.6)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -57412,6 +57709,17 @@
 			)
 			(scale
 				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRN6045TA.step"
+			(offset
+				(xyz 0 0.2 0)
+			)
+			(scale
+				(xyz 0.6 0.5 0.5)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -58159,6 +58467,17 @@
 			(uuid "25838c43-103f-4cc1-af7c-7ac720d9c31e")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59662,6 +59981,17 @@
 				(xyz -90 0 90)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OtherPotentiometer.step"
+			(offset
+				(xyz 2.5 -7 8)
+			)
+			(scale
+				(xyz 1 0.6 0.6)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
 	)
 	(footprint "AudioSystemFootprintLibrary:OPA2134UA"
 		(layer "F.Cu")
@@ -59952,6 +60282,17 @@
 			(uuid "ea4efe1e-114d-4f2b-bf1e-81d277fc3307")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -64801,6 +65142,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -65843,6 +66195,17 @@
 		(model "${MODEL3D_LIB_DIR}/MIC39100-5.0WS.step"
 			(offset
 				(xyz 0 0 0.75)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/MIC39100-5.0WS.step"
+			(offset
+				(xyz 0 0 0.7)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -70936,6 +71299,17 @@
 				(xyz 90 -180 90)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/LT3015EQ-5PBF.step"
+			(offset
+				(xyz 0 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -71822,6 +72196,17 @@
 			(uuid "7bc68ba0-4e78-4bd4-ba8e-c7935f92760c")
 		)
 		(model "${MODEL3D_LIB_DIR}/VLS6045EX-4R7M-H.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/VLS6045EX-4R7M-H.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -73778,6 +74163,17 @@
 			(uuid "d431d88f-130f-4803-ad45-398a1deeeb43")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -78756,6 +79152,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/Molex-43045-1211.STEP"
+			(offset
+				(xyz 0 -4.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -81310,6 +81717,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -83021,6 +83439,17 @@
 		(model "${MODEL3D_LIB_DIR}/OtherPotentiometer.step"
 			(offset
 				(xyz 2.5 -6.5 7)
+			)
+			(scale
+				(xyz 1 0.6 0.6)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OtherPotentiometer.step"
+			(offset
+				(xyz 2.5 -7 8)
 			)
 			(scale
 				(xyz 1 0.6 0.6)
@@ -85473,6 +85902,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "AudioSystemFootprintLibrary:PTN092H10120K1B"
 		(layer "F.Cu")
@@ -86732,6 +87172,17 @@
 		(model "${MODEL3D_LIB_DIR}/OtherPotentiometer.step"
 			(offset
 				(xyz 2.5 -6.5 7)
+			)
+			(scale
+				(xyz 1 0.6 0.6)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OtherPotentiometer.step"
+			(offset
+				(xyz 2.5 -7 8)
 			)
 			(scale
 				(xyz 1 0.6 0.6)
@@ -94940,6 +95391,17 @@
 			(uuid "63324b4e-4b4b-4b9d-a51f-aa31357a9f2d")
 		)
 		(model "${MODEL3D_LIB_DIR}/OPA2134UA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${AUDIOSYSTEM_CUSTOM_3D_MODEL_DIR}/OPA2134UA.step"
 			(offset
 				(xyz 0 0 0)
 			)

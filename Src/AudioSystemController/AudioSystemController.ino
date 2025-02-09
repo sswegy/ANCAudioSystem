@@ -2,7 +2,7 @@
 #include <ESP_I2S.h>
 #include <BluetoothA2DPSinkQueued.h>
 #include <LiquidCrystal_I2C.h>
-#include "DebugTools.h"
+//#include "DebugTools.h"
 
 
 #define I2C_SCL 17
@@ -25,6 +25,8 @@
 
 #define BUTTON_DEBOUNCE_DELAY_MS 50
 
+#define BLUETOOTH_DEVICE_NAME "InzaumaEleven"
+
 I2SClass i2s;
 BluetoothA2DPSinkQueued a2dp_sink(i2s);
 LiquidCrystal_I2C lcd(LCD_I2C_ADDRESS, 20, 4);
@@ -34,6 +36,7 @@ String currentSongArtist;
 String currentSongAlbum;
 
 esp_avrc_playback_stat_t playbackState;
+volatile bool bluetoothEnabled = true;
 
 struct ScrollState 
 {
@@ -54,10 +57,23 @@ ButtonState playButtonState = {false, false, 0};
 ButtonState nextButtonState = {false, false, 0};
 ButtonState prevButtonState = {false, false, 0};
 
+void IRAM_ATTR toggleBluetooth()
+{
+  bluetoothEnabled = !(digitalRead(AUX_LEFT) || digitalRead(AUX_RIGHT));
+  if (bluetoothEnabled)
+    a2dp_sink.start(BLUETOOTH_DEVICE_NAME);
+  else
+   a2dp_sink.end();
+}
 
 void setup() 
 {
   Serial.begin(115200);
+
+  pinMode(AUX_LEFT, INPUT);
+  pinMode(AUX_RIGHT, INPUT);
+  attachInterrupt(AUX_LEFT, toggleBluetooth, CHANGE);
+  attachInterrupt(AUX_RIGHT, toggleBluetooth, CHANGE);
 
   pinMode(PLAY, INPUT);
   pinMode(NEXT, INPUT);
@@ -96,31 +112,42 @@ void setup()
   });
   i2s.setPins(I2S_SCK, I2S_WS, I2S_SD);
   i2s.begin(I2S_MODE_STD, 44100, I2S_DATA_BIT_WIDTH_16BIT, I2S_SLOT_MODE_STEREO, I2S_STD_SLOT_BOTH);
-  a2dp_sink.start("AurioSystem");
+  a2dp_sink.start(BLUETOOTH_DEVICE_NAME);
 }
 
 void loop() 
 {
-  if (a2dp_sink.is_connected())
+  if (bluetoothEnabled)
   {
-    printFormattedSongData();
-    if (debounceButton(PLAY, BUTTON_DEBOUNCE_DELAY_MS, playButtonState))
+    if (a2dp_sink.is_connected())
     {
-      if (playbackState == ESP_AVRC_PLAYBACK_PLAYING)
-        a2dp_sink.pause();
-      else if (playbackState == ESP_AVRC_PLAYBACK_PAUSED)
-        a2dp_sink.play();
+      printFormattedSongData();
+      if (debounceButton(PLAY, BUTTON_DEBOUNCE_DELAY_MS, playButtonState))
+      {
+        if (playbackState == ESP_AVRC_PLAYBACK_PLAYING)
+          a2dp_sink.pause();
+        else if (playbackState == ESP_AVRC_PLAYBACK_PAUSED)
+          a2dp_sink.play();
+      }
+      else if (debounceButton(NEXT, BUTTON_DEBOUNCE_DELAY_MS, nextButtonState))
+        a2dp_sink.next();
+      else if (debounceButton(PREV, BUTTON_DEBOUNCE_DELAY_MS, prevButtonState))
+        a2dp_sink.previous();
     }
-    else if (debounceButton(NEXT, BUTTON_DEBOUNCE_DELAY_MS, nextButtonState))
-      a2dp_sink.next();
-    else if (debounceButton(PREV, BUTTON_DEBOUNCE_DELAY_MS, prevButtonState))
-      a2dp_sink.previous();
+    else
+    {   
+      lcd.clear();
+      lcd.setCursor(0, 0);
+      lcd.print("Bluetooth ON");
+      lcd.setCursor(0, 1);
+      lcd.print("Not connected");
+    }
   }
   else
-  { 
+  {
     lcd.clear();
     lcd.setCursor(0, 0);
-    lcd.print("Not Connected");
+    lcd.print("Bluetooth OFF");
   }
 }
 

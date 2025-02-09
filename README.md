@@ -15,6 +15,8 @@
 - C++
 - Електроника
 
+[Документация]https://docs.google.com/document/d/18OyuSNhzSNt5vsgb9MGb9Y_gkE6eRHnCl0IYLaxOIx8/edit?usp=sharing
+
 ## Автор
 [Виктор Велков](https://www.github.com/sswegy) 
 

@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "height": 0.6,
+          "width": 1.325
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -490,7 +490,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "bom1",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -557,7 +557,7 @@
           "group_by": false,
           "label": "Check_prices",
           "name": "Check_prices",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -617,7 +617,7 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -647,6 +647,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTNUM",
+          "name": "PARTNUM",
           "show": false
         }
       ],

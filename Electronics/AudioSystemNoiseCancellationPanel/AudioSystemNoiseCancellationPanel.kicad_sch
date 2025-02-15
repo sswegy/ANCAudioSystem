@@ -2168,6 +2168,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "None"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e806d98-631b-481d-b537-bb8a995a3a1c")
 		)
@@ -2234,6 +2252,33 @@
 			)
 		)
 		(property "Description" "Single SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/Texas-Instruments/OPA134UA?qs=7nS3%252BbEUL6ubb2ehCixpMg%3D%3D"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "OPA134UA"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -2322,6 +2367,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/80-C0805C105K3R?R=80-C0805C105K3RAC&bdprt=1&cartid=274144711"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C0805C105K3RACTU"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.186"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -2430,7 +2502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 152.4 110.4962 0)
 			(effects
 				(font
@@ -2458,6 +2530,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/KEMET/C0805C104K3RACTU?qs=zZwvocWqSRjmUvfNxkIN%2Fg%3D%3D"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C0805C104K3RACTU"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.186"
 			(at 149.86 109.22 0)
 			(effects
 				(font
@@ -2591,6 +2690,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/KEMET/C0805C104K3RACTU?qs=zZwvocWqSRjmUvfNxkIN%2Fg%3D%3D"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C0805C104K3RACTU"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.186"
 			(at 190.5 111.76 0)
 			(effects
 				(font
@@ -2773,7 +2899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ICS-40310/TDK+InvenSense/view-part/?ref=eda"
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/TDK-InvenSense/ICS-40310?qs=u4fy%2FsgLU9NSwNRSQvIc3g%3D%3D"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -2843,7 +2969,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "InvenSense"
+		(property "MANUFACTURER" "ICS-40310"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -2982,6 +3108,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/YAGEO/RT0805DRE0747KL?qs=4CyHz7GXqSisJ2rdkM1hsQ%3D%3D"
+			(at 170.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "RT0805DRE0747KL"
+			(at 170.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.186"
 			(at 170.18 121.92 0)
 			(effects
 				(font
@@ -3155,7 +3308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "0.335"
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -3165,7 +3318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MIC5365-1.2YC5-TR/Microchip/view-part/?ref=eda"
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/Microchip-Technology/MIC5365-1.2YC5-TR?qs=U6T8BxXiZAVvXvc3oHLLAQ%3D%3D"
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -3235,7 +3388,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Micrel"
+		(property "MANUFACTURER" "MIC5365-1.2YC5-TR"
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -3321,6 +3474,33 @@
 				(hide yes)
 			)
 		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/80-C0805C105K3R?R=80-C0805C105K3RAC&bdprt=1&cartid=274144711"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C0805C105K3RACTU"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.186"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8317b9e-38b2-493e-81d4-d3685cf72b5e")
 		)
@@ -3381,6 +3561,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/KEMET/C0805C104K3RACTU?qs=zZwvocWqSRjmUvfNxkIN%2Fg%3D%3D"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C0805C104K3RACTU"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.186"
 			(at 190.5 134.62 0)
 			(effects
 				(font
@@ -3457,6 +3664,33 @@
 				(hide yes)
 			)
 		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/YAGEO/RT0805FRE07820KL?qs=UvCmBq8CNhW6ITH9zvY1og%3D%3D"
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "RT0805FRE07820KL"
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.186"
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6738ac7a-bdfc-46d7-8ac1-2f1cefc40410")
 		)
@@ -3490,7 +3724,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 157.4863 118.11 90)
 			(effects
 				(font
@@ -3517,6 +3751,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/KEMET/C0805C104K3RACTU?qs=zZwvocWqSRjmUvfNxkIN%2Fg%3D%3D"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C0805C104K3RACTU"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.186"
 			(at 157.48 121.92 0)
 			(effects
 				(font

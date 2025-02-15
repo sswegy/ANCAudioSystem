@@ -197,6 +197,45 @@
 				)
 			)
 		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/YAGEO/RT0805FRE07820KL?qs=UvCmBq8CNhW6ITH9zvY1og%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd03b4f2-ab4d-4d1b-87ca-d26285bd794f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "RT0805FRE07820KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0725d811-df9c-4373-84b9-0080d51e4574")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.186"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e565165-6f45-44b6-ad26-87acbf876055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d6e97570-336f-46ac-8ffd-f5571f09df30")
 		(sheetname "Root")
@@ -360,7 +399,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "8a55197e-7654-4fff-b25e-87f516f8a66b")
@@ -406,6 +445,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/KEMET/C0805C104K3RACTU?qs=zZwvocWqSRjmUvfNxkIN%2Fg%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cea408c-7a09-41b7-b1f1-d23ec7ffdc11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "C0805C104K3RACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa6d4836-94a2-4499-b6f1-ffdd4802773e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.186"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08b540eb-e8eb-4384-a862-9373dc159352")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -573,7 +651,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "4c154b12-c925-4928-9e86-15fdd6f68270")
@@ -619,6 +697,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/KEMET/C0805C104K3RACTU?qs=zZwvocWqSRjmUvfNxkIN%2Fg%3D%3D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a1f43fa-da23-4d88-894d-1f7a32a28530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "C0805C104K3RACTU"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fcfbda8-6f0e-4bf5-85dd-e8e22f097d4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.186"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4188bba1-3b2d-4ee7-b950-30a731232472")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -827,6 +944,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/Texas-Instruments/OPA134UA?qs=7nS3%252BbEUL6ubb2ehCixpMg%3D%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92534e29-5710-4d0b-9e1d-bc530274d282")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "OPA134UA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73364e3b-4a01-419f-a5a1-74dee831c3ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0eb23577-c2e0-4c15-a2cc-fb974eb842ca")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1135,6 +1291,45 @@
 				)
 			)
 		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/80-C0805C105K3R?R=80-C0805C105K3RAC&bdprt=1&cartid=274144711"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a2b6bc0-ffa1-41fa-bd7f-8d675d8634eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "C0805C105K3RACTU"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d155ae10-4aed-43fc-8a92-a12de0abe5c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.186"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24db7f15-ab9e-44fd-878e-cff59db57a3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d43ef2c6-b1e4-44cf-b4dd-0307d71a9a3a")
 		(sheetname "Root")
@@ -1344,6 +1539,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/KEMET/C0805C104K3RACTU?qs=zZwvocWqSRjmUvfNxkIN%2Fg%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d2e6034-2941-4933-afe1-3b061e651126")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "C0805C104K3RACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dffc767-989f-4c0d-8b10-d2656ee92dc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.186"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa1527fd-bd3c-4121-8aee-dfadcba2d14e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1561,6 +1795,45 @@
 				)
 			)
 		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/YAGEO/RT0805DRE0747KL?qs=4CyHz7GXqSisJ2rdkM1hsQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32eafa17-2b6a-4db4-b6f6-9e8e5bf262e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "RT0805DRE0747KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df0c59bf-f8bc-4789-ba50-91c16c40fc28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.186"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e03f3b1-d8b2-4adf-b012-cd449015dd24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9ac0ece6-4415-4c87-ad6f-8b7e5abbf39e")
 		(sheetname "Root")
@@ -1770,6 +2043,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/KEMET/C0805C104K3RACTU?qs=zZwvocWqSRjmUvfNxkIN%2Fg%3D%3D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44c8e38b-3f5b-491d-83d8-f51db1f13650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "C0805C104K3RACTU"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01114644-375c-4005-9e3d-4e692205556e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.186"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6290f3b2-90ad-4c0d-9f90-4513ae5a1c53")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1987,6 +2299,32 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10ca6fb1-3bd1-4675-a531-4e2240b17e6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "373b535d-3a59-4850-b6a6-a8b77690b574")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/22a63b6b-2645-4e1c-8be4-44017976e499")
 		(sheetname "Root")
@@ -2157,7 +2495,7 @@
 				)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "0.335"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2170,7 +2508,7 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MIC5365-1.2YC5-TR/Microchip/view-part/?ref=eda"
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/Microchip-Technology/MIC5365-1.2YC5-TR?qs=U6T8BxXiZAVvXvc3oHLLAQ%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2261,7 +2599,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Micrel"
+		(property "MANUFACTURER" "MIC5365-1.2YC5-TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2533,6 +2871,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/80-C0805C105K3R?R=80-C0805C105K3RAC&bdprt=1&cartid=274144711"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99f32179-df0f-4545-bbe5-f00ebc4d14e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "C0805C105K3RACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8f2799c-6f0e-4009-a488-e33584f37c26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.186"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adf7c210-bd3b-40b1-9671-eb3c93c62fb6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3278,7 +3655,7 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ICS-40310/TDK+InvenSense/view-part/?ref=eda"
+		(property "Check_prices" "https://www.mouser.bg/ProductDetail/TDK-InvenSense/ICS-40310?qs=u4fy%2FsgLU9NSwNRSQvIc3g%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3369,7 +3746,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "InvenSense"
+		(property "MANUFACTURER" "ICS-40310"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

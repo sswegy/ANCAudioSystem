@@ -23,9 +23,9 @@
 #define LCD_DISPLAY_WIDTH 20
 #define DISPLAY_SCROLL_INTERVAL_MS 250
 
-#define BUTTON_DEBOUNCE_DELAY_MS 50
+#define BUTTON_DEBOUNCE_DELAY_MS 70
 
-#define BLUETOOTH_DEVICE_NAME "InzaumaEleven"
+#define BLUETOOTH_DEVICE_NAME "InazumaEleven"
 
 I2SClass i2s;
 BluetoothA2DPSinkQueued a2dp_sink(i2s);
@@ -110,6 +110,7 @@ void setup()
   a2dp_sink.set_avrc_rn_playstatus_callback([](esp_avrc_playback_stat_t playback_state){
     playbackState = playback_state;
   });
+  
   i2s.setPins(I2S_SCK, I2S_WS, I2S_SD);
   i2s.begin(I2S_MODE_STD, 44100, I2S_DATA_BIT_WIDTH_16BIT, I2S_SLOT_MODE_STEREO, I2S_STD_SLOT_BOTH);
   a2dp_sink.start(BLUETOOTH_DEVICE_NAME);
